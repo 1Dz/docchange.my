@@ -1,0 +1,27 @@
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+	<session-factory>
+		<property name="hibernate.dialect">org.hibernate.dialect.PostgreSQLDialect</property>
+		<property name="hibernate.connection.driver_class">org.postgresql.Driver</property>
+		<property name="hibernate.connection.username">postgres</property>
+		<property name="hibernate.connection.password">System12</property>
+		<property name="hibernate.connection.autocommit">false</property>
+		<property name="hibernate.connection.url">jdbc:postgresql://localhost:5433/docChangeDb</property>
+		<property name="show-sql">true</property>
+		<property name="connection_pool_size">1</property>
+		<property name="hibernate.temp.use_jdbc_metadata_defaults">false</property>
+		<property name="show_sql">true</property>
+		<!-- TODO: FIND OUT ABOUT ITS NECESSITY -->
+		<!-- <property name="hbm2ddl.auto">update</property> -->
+		<!-- ---------------------------------- -->
+
+		<!-- Mapping -->
+		<mapping resource="Dep.hbm.xml" />
+		<mapping resource="User.hbm.xml" />
+		<mapping resource="Record.hbm.xml"/>
+
+	</session-factory>
+</hibernate-configuration>
