@@ -9,19 +9,19 @@ import docchange.my.Dep;
 import exception.DbChangeException;
 
 /**
- * 
- * @author Maxim Kulin Класс служит для выполнения запросов к базе данных
+ * Класс служит для выполнения запросов к базе данных через HibernateFramework
+ * @author Maxim Kulin 
+ * @see util.HibernateUtil
  */
 public class HDBUtil implements DBUtil {
 
-	private SessionFactory factory = HibernateUtil.getSessionFactory();;
+	private SessionFactory factory = HibernateUtil.getSessionFactory();
 	private Session session;
 	private Transaction tx;
 
 	/**
-	 * @see util.DBUtil#add(java.lang.Object) Добавляет объекты приложения в
-	 *      базу данных, предварительно проверив класс объекта для корректного
-	 *      определения таблицы БД
+	 * Добавляет объекты приложения в базу данных, предварительно проверив класс
+	 * объекта для корректного определения таблицы БД
 	 * 
 	 * @param obj
 	 *            - объект приложения приведенный к классу Object
@@ -29,6 +29,7 @@ public class HDBUtil implements DBUtil {
 	 * @throws HibernateException
 	 *             - если возникли проблемы с открытием, коммитом транзакции или
 	 *             записью в базу данных
+	 * @see util.DBUtil#add(java.lang.Object)
 	 */
 	@Override
 	public Integer add(Object obj) {
@@ -54,10 +55,10 @@ public class HDBUtil implements DBUtil {
 	}
 
 	/**
-	 * @see util.DBUtil#update(java.lang.Object) Изменяет объект, уже
-	 *      находящийся в БД. Метод берет id переданного объекта obj, если
-	 *      объект с таким id существует в БД, то получает его, предварительно
-	 *      проверив класс объекта для корректного определения таблицы БД
+	 * Изменяет объект, уже находящийся в БД. Метод берет id переданного объекта
+	 * obj, если объект с таким id существует в БД, то получает его,
+	 * предварительно проверив класс объекта для корректного определения таблицы
+	 * БД
 	 * 
 	 * @param obj
 	 *            - эземпляр объекта, предназначенного для изменения
@@ -66,7 +67,7 @@ public class HDBUtil implements DBUtil {
 	 *             базы данных
 	 * @throws HibernateException
 	 *             - если объекта с таким id не существует
-	 * 
+	 * @see util.DBUtil#update(java.lang.Object)
 	 */
 	@Override
 	public void update(Object obj) throws Exception {
@@ -93,8 +94,8 @@ public class HDBUtil implements DBUtil {
 	}
 
 	/**
-	 * @see util.DBUtil#get(java.lang.Integer, java.lang.Class) Возвращает
-	 *      объект переданного класса с переданным id из БД
+	 * Возвращает объект переданного класса с переданным id из БД
+	 * 
 	 * @param id
 	 *            - id требуемого из БД объекта
 	 * @param clazz
@@ -102,6 +103,7 @@ public class HDBUtil implements DBUtil {
 	 * @throws HibernateException
 	 *             - при ошибке HibernateFramework или отсутствии такого объекта
 	 *             в БДы
+	 * @see util.DBUtil#get(java.lang.Integer, java.lang.Class)
 	 */
 	@Override
 	public Object get(Integer id, Class<?> clazz) {
@@ -109,7 +111,7 @@ public class HDBUtil implements DBUtil {
 		session = factory.openSession();
 		try {
 			tx = session.beginTransaction();
-			result = (Dep) session.get(clazz, id);
+			result = session.get(clazz, id);
 			tx.commit();
 		} catch (HibernateException e) {
 			Logging.logError(e);
@@ -120,9 +122,35 @@ public class HDBUtil implements DBUtil {
 		return clazz.cast(result);
 	}
 
+	/**
+	 * Возвращает объект переданного класса с переданным id из БД Удаляет объект
+	 * из БД по переданному id, предварительно приведя его типу переданного
+	 * класса
+	 * 
+	 * @param id
+	 *            - id объекта в БД
+	 * @param clazz
+	 *            - класс удаляемого объекта
+	 * @throws HibernateException
+	 *             - - при ошибке HibernateFramework или отсутствии такого
+	 *             объекта в БД
+	 * @see util.DBUtil#delete(java.lang.Integer, java.lang.Class)
+	 */
 	@Override
-	public void delete(Integer id) {
-		
+	public void delete(Integer id, Class<?> clazz) {
+		session = factory.openSession();
+		try {
+			tx = session.beginTransaction();
+			Object result = session.get(clazz, id);
+			result = clazz.cast(result);
+			session.delete(result);
+			tx.commit();
+		} catch (HibernateException e) {
+			Logging.logError(e);
+			throw e;
+		} finally {
+			session.close();
+		}
 	}
 
 }
