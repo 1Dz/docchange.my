@@ -1,16 +1,19 @@
 <?xml version="1.0"?>
     <!DOCTYPE hibernate-mapping PUBLIC
             "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
-            "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+            "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
 <hibernate-mapping package="docchange.my">
-	<class name="Record" table="Record">
-	    <property name="name" type="string" column="name" length="100" />
-	    <property name="theme" type="string" column="name" length="255" />
-	    <property name="message" type="string" column="name" />
-	    <property name="creationDate" type="date" column="creationdate" />
-	    <property name="checked" type="boolean" column="checked" />
-	    <property name="archived" type="boolean" column="archived" />
-	    <property name="editionDates" type="date[]" column="editionDates"/>
-	    <property name="fileList" type="string[]" column="filelist"/>
+	<class name="Record" table="record">
+		<id name="id" column="id" unsaved-value="null">
+			<generator class="increment" />
+		</id>
+		<property name="name" type="string" column="name" length="100" />
+		<property name="theme" type="string" column="theme" length="255" />
+		<property name="message" type="string" column="message" />
+		<property name="creationDate" type="date" column="creationdate" />
+		<property name="checked" type="boolean" column="checked" />
+		<property name="archived" type="boolean" column="archived" />
+		<!-- <property name="editionDates" type="date[]" column="editionDates"/> -->
+		<!-- <property name="fileList" type="string[]" column="filelist"/> -->
 	</class>
 </hibernate-mapping>

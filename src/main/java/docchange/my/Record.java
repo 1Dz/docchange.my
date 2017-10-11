@@ -1,11 +1,12 @@
 package docchange.my;
 
 import java.io.File;
-import java.sql.Date;
+import java.util.Date;
 import java.util.List;
 
 public class Record {
 	
+	private Integer id;
 	private String name;
 	private String theme;
 	private String message;
@@ -158,6 +159,30 @@ public class Record {
 
 	public void setArchived(boolean archived) {
 		this.archived = archived;
+	}
+
+	public Integer getId() {
+		return id;
+	}
+
+	public void setId(Integer id) {
+		this.id = id;
+	}
+
+	public List<User> getRemainedUsers() {
+		return remainedUsers;
+	}
+
+	public void setRemainedUsers(List<User> remainedUsers) {
+		this.remainedUsers = remainedUsers;
+	}
+
+	public List<User> getRemainedDeps() {
+		return remainedDeps;
+	}
+
+	public void setRemainedDeps(List<User> remainedDeps) {
+		this.remainedDeps = remainedDeps;
 	}
 	
 }

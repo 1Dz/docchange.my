@@ -1,35 +1,38 @@
 <?xml version="1.0"?>
     <!DOCTYPE hibernate-mapping PUBLIC
             "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
-            "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+            "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
 <hibernate-mapping package="docchange.my">
-	<class name="User" table="public.user">
+	<class name="User" table="client">
 		<id name="id" column="id" unsaved-value="null">
 			<generator class="increment" />
 		</id>
-<!-- 		<list name="rcreated" cascade="all"> -->
-<!-- 			<key column="user_id" /> -->
-<!-- 			<list-index column="idu" /> -->
-<!-- 			<one-to-many class="Record" /> -->
-<!-- 		</list> -->
-<!-- 		<list name="rchanged" cascade="all"> -->
-<!-- 			<key column="user_id" /> -->
-<!-- 			<list-index column="idu" /> -->
-<!-- 			<one-to-many class="Record" /> -->
-<!-- 		</list> -->
-<!-- 		<list name="rlistened" cascade="all"> -->
-<!-- 			<key column="user_id" /> -->
-<!-- 			<list-index column="idu" /> -->
-<!-- 			<one-to-many class="Record" /> -->
-<!-- 		</list> -->
-<!-- 		<list name="rdeleted" cascade="all"> -->
-<!-- 			<key column="user_id" /> -->
-<!-- 			<list-index column="idu" /> -->
-<!-- 			<one-to-many class="Record" /> -->
-<!-- 		</list> -->
+		<list name="rCreated" cascade="all">
+			<key column="user_id" />
+			<list-index column="idu" />
+			<one-to-many class="Record" />
+		</list>
+		<list name="rChanged" cascade="all">
+			<key column="user_id" />
+			<list-index column="idu" />
+			<one-to-many class="Record" />
+		</list>
+		<list name="rListened" cascade="all">
+			<key column="user_id" />
+			<list-index column="idu" />
+			<one-to-many class="Record" />
+		</list>
+		<list name="rDeleted" cascade="all">
+			<key column="user_id" />
+			<list-index column="idu" />
+			<one-to-many class="Record" />
+		</list>
+
+		<!-- <property name="logindates" type="date[]" column="logindates" /> -->
 		<property name="name" type="string" column="name" length="100" />
 		<property name="usrCreated" type="date" column="usrCreated" />
 		<property name="key" type="string" column="key" length="255" />
-		<property name="profession" type="string" column="profession" length="150" />
+		<property name="profession" type="string" column="profession"
+			length="150" />
 	</class>
 </hibernate-mapping>
