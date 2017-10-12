@@ -1,10 +1,14 @@
 package docchange.my;
 
+import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
+import javax.swing.text.DateFormatter;
+
 import util.HDBUtil;
+import util.Util;
 
 public class Main {
 	
@@ -17,14 +21,14 @@ public class Main {
 		
 		List<Record> recs = new ArrayList<>();
 		
-		List<Date> dates = new ArrayList<>();
-		dates.add(new Date());
+		List<String> dates = new ArrayList<>();
+		dates.add(Util.getDateStringNow());
+		System.out.println(Util.getDateStringNow());
 		List<User> list = new ArrayList<>();
 		
 		User usr = new User("First", new Date());
 		usr.setKey("123");
 		usr.setProfession("newbee");
-		usr.setLogins(dates);
 		list.add(usr);
 		
 		usr = new User("Second", new Date());
@@ -38,6 +42,7 @@ public class Main {
 		usr = new User("Third", new Date());
 		usr.setKey("123");
 		usr.setProfession("newbee");
+		usr.setLogins(dates);
 		list.add(usr);
 		
 		dep.setUserList(list);

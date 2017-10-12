@@ -3,6 +3,10 @@ package docchange.my;
 import java.util.Date;
 import java.util.List;
 
+import javax.persistence.CascadeType;
+import javax.persistence.FetchType;
+import javax.persistence.OneToMany;
+
 public class User {
 	
 	private String name;
@@ -15,7 +19,7 @@ public class User {
 	private List<Record> rChanged;
 	private List<Record> rListened;
 	private List<Record> rDeleted;
-	private List<Date> logins;
+	private List<String> logins;
 	
 	public User() {
 	}
@@ -26,7 +30,7 @@ public class User {
 	}
 	
 	public User(String name, Date usrCreated, Integer id, String key, String profession, List<Record> rCreated,
-			List<Record> rChanged, List<Record> rListened, List<Record> rDeleted, List<Date> logins) {
+			List<Record> rChanged, List<Record> rListened, List<Record> rDeleted, List<String> logins) {
 		this.name = name;
 		this.usrCreated = usrCreated;
 		this.id = id;
@@ -87,11 +91,10 @@ public class User {
 		this.rDeleted = rDeleted;
 	}
 
-	public List<Date> getLogins() {
+	public List<String> getLogins() {
 		return logins;
 	}
-
-	public void setLogins(List<Date> logins) {
+	public void setLogins(List<String> logins) {
 		this.logins = logins;
 	}
 

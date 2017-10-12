@@ -27,8 +27,11 @@
 			<list-index column="idu" />
 			<one-to-many class="Record" />
 		</list>
-
-		<!-- <property name="logindates" type="date[]" column="logindates" /> -->
+		<list name="logins" table="logins" cascade="all">
+			<key column="user_id"/>
+			<index column="idu"></index>
+			<element column="logins" type="string"/>
+		</list>
 		<property name="name" type="string" column="name" length="100" />
 		<property name="usrCreated" type="date" column="usrCreated" />
 		<property name="key" type="string" column="key" length="255" />
