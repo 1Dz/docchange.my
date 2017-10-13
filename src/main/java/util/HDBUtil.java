@@ -6,11 +6,13 @@ import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 
 import docchange.my.Dep;
+import docchange.my.User;
 import exception.DbChangeException;
 
 /**
  *  ласс служит дл€ выполнени€ запросов к базе данных через HibernateFramework
- * @author Maxim Kulin 
+ * 
+ * @author Maxim Kulin
  * @see util.HibernateUtil
  */
 public class HDBUtil implements DBUtil {
@@ -72,17 +74,39 @@ public class HDBUtil implements DBUtil {
 	@Override
 	public void update(Object obj) throws Exception {
 		if (obj instanceof Dep) {
-			Dep d = (Dep) obj;
-			int id = d.getId();
+			Dep res = (Dep) obj;
+			int id = res.getId();
 			session = factory.openSession();
 			try {
 				tx = session.beginTransaction();
-				Dep tmp = (Dep) session.get(Dep.class, id);
-				if (tmp == null)
+				Dep dest = (Dep) session.get(Dep.class, id);
+				if (dest == null)
 					throw new HibernateException("No such department in database");
-				if (id != tmp.getId())
+				if (id != dest.getId())
 					throw new DbChangeException("Wrong Dep ID");
-				session.update(d);
+				swapParams(res, dest);
+				session.update(dest);
+				tx.commit();
+			} catch (HibernateException | DbChangeException e) {
+				Logging.logError(e);
+				throw e;
+			} finally {
+				session.close();
+			}
+		}
+		if (obj instanceof User) {
+			User res = (User) obj;
+			int id = res.getId();
+			session = factory.openSession();
+			try {
+				tx = session.beginTransaction();
+				User dest = (User) session.get(User.class, id);
+				if (dest == null)
+					throw new HibernateException("No such User in database");
+				if (id != dest.getId())
+					throw new DbChangeException("Wrong User ID");
+				swapParams(res, dest);
+				session.update(dest);
 				tx.commit();
 			} catch (HibernateException | DbChangeException e) {
 				Logging.logError(e);
@@ -152,5 +176,32 @@ public class HDBUtil implements DBUtil {
 			session.close();
 		}
 	}
-
+	/**
+	 * ¬носит изменени€ в экземпл€р объекта из базы данных, вз€тые из экземпл€ра объекта
+	 * переданного пользователем 
+	 * @param res - экземпл€р объекта, переданного пользователем
+	 * @param dest - экземпл€р объекта из базы данных
+	 */
+	private void swapParams(Object res, Object dest) {
+		if (res instanceof Dep && dest instanceof Dep) {
+			Dep dres = (Dep) res;
+			Dep ddest = (Dep) dest;
+			dres.setName(ddest.getName());
+			dres.setReminedRecs(ddest.getReminedRecs());
+			dres.setUserList(ddest.getUserList());
+		}
+		if (res instanceof User && dest instanceof User) {
+			User ures = (User) res;
+			User udest = (User) dest;
+			udest.setKey(ures.getKey());
+			udest.setLogins(ures.getLogins());
+			udest.setName(ures.getName());
+			udest.setProfession(ures.getProfession());
+			udest.setrChanged(ures.getrChanged());
+			udest.setrCreated(ures.getrCreated());
+			udest.setrDeleted(ures.getrDeleted());
+			udest.setrListened(ures.getrListened());
+			udest.setUsrCreated(ures.getUsrCreated());
+		}
+	}
 }

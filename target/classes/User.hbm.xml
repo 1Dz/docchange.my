@@ -27,6 +27,10 @@
 			<list-index column="idu" />
 			<one-to-many class="Record" />
 		</list>
+<!-- 		<set name="logins" table="client"> -->
+<!-- 			<key column="id" /> -->
+<!-- 			<element column="logins" type="date" /> -->
+<!-- 		</set> -->
 
 		<!-- <property name="logindates" type="date[]" column="logindates" /> -->
 		<property name="name" type="string" column="name" length="100" />

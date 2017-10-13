@@ -2,6 +2,11 @@ package docchange.my;
 
 import java.util.Date;
 import java.util.List;
+import java.util.Set;
+
+import javax.persistence.Column;
+
+import org.hibernate.annotations.Type;
 
 public class User {
 	
@@ -15,6 +20,9 @@ public class User {
 	private List<Record> rChanged;
 	private List<Record> rListened;
 	private List<Record> rDeleted;
+	
+	@Column(name = "logins", columnDefinition="date[]")
+	@Type(type = "docchange.my.DateType")
 	private List<Date> logins;
 	
 	public User() {

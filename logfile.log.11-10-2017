@@ -1,0 +1,736 @@
+11-10-2017 14:17:39 INFO  org.hibernate.Version     - HHH000412: Hibernate Core {5.2.10.Final}
+11-10-2017 14:17:39 INFO  org.hibernate.cfg.Environment     - HHH000206: hibernate.properties not found
+11-10-2017 15:12:05 INFO  org.hibernate.Version     - HHH000412: Hibernate Core {5.2.10.Final}
+11-10-2017 15:12:05 INFO  org.hibernate.cfg.Environment     - HHH000206: hibernate.properties not found
+11-10-2017 15:13:25 INFO  org.hibernate.Version     - HHH000412: Hibernate Core {5.2.10.Final}
+11-10-2017 15:13:25 INFO  org.hibernate.cfg.Environment     - HHH000206: hibernate.properties not found
+11-10-2017 15:13:26 INFO  org.hibernate.annotations.common.Version     - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+11-10-2017 15:13:26 WARN  org.hibernate.orm.deprecation     - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+11-10-2017 15:13:30 WARN  org.hibernate.orm.deprecation     - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+11-10-2017 15:16:42 INFO  org.hibernate.Version     - HHH000412: Hibernate Core {5.2.10.Final}
+11-10-2017 15:16:42 INFO  org.hibernate.cfg.Environment     - HHH000206: hibernate.properties not found
+11-10-2017 15:16:42 INFO  org.hibernate.annotations.common.Version     - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+11-10-2017 15:16:42 WARN  org.hibernate.orm.deprecation     - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+11-10-2017 15:16:44 WARN  org.hibernate.orm.deprecation     - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+11-10-2017 15:19:13 INFO  org.hibernate.Version     - HHH000412: Hibernate Core {5.2.10.Final}
+11-10-2017 15:19:13 INFO  org.hibernate.cfg.Environment     - HHH000206: hibernate.properties not found
+11-10-2017 15:19:13 INFO  org.hibernate.annotations.common.Version     - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+11-10-2017 15:19:13 WARN  org.hibernate.orm.deprecation     - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+11-10-2017 15:19:15 WARN  org.hibernate.orm.deprecation     - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+11-10-2017 15:19:15 WARN  org.hibernate.orm.deprecation     - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+11-10-2017 15:22:20 INFO  org.hibernate.Version     - HHH000412: Hibernate Core {5.2.10.Final}
+11-10-2017 15:22:20 INFO  org.hibernate.cfg.Environment     - HHH000206: hibernate.properties not found
+11-10-2017 15:22:21 INFO  org.hibernate.annotations.common.Version     - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+11-10-2017 15:22:21 WARN  org.hibernate.orm.deprecation     - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+11-10-2017 15:22:23 WARN  org.hibernate.orm.deprecation     - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+11-10-2017 15:22:52 INFO  org.hibernate.Version     - HHH000412: Hibernate Core {5.2.10.Final}
+11-10-2017 15:22:53 INFO  org.hibernate.cfg.Environment     - HHH000206: hibernate.properties not found
+11-10-2017 15:22:53 INFO  org.hibernate.annotations.common.Version     - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+11-10-2017 15:24:10 INFO  org.hibernate.Version     - HHH000412: Hibernate Core {5.2.10.Final}
+11-10-2017 15:24:10 INFO  org.hibernate.cfg.Environment     - HHH000206: hibernate.properties not found
+11-10-2017 15:24:11 INFO  org.hibernate.annotations.common.Version     - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+11-10-2017 15:27:31 INFO  org.hibernate.Version     - HHH000412: Hibernate Core {5.2.10.Final}
+11-10-2017 15:27:31 INFO  org.hibernate.cfg.Environment     - HHH000206: hibernate.properties not found
+11-10-2017 15:27:32 INFO  org.hibernate.annotations.common.Version     - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+11-10-2017 15:27:34 INFO  org.hibernate.dialect.Dialect     - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+11-10-2017 15:27:34 INFO  org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl     - HHH000422: Disabling contextual LOB creation as connection was null
+11-10-2017 15:27:34 INFO  org.hibernate.type.BasicTypeRegistry     - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@2f953efd
+11-10-2017 15:28:32 INFO  org.hibernate.Version     - HHH000412: Hibernate Core {5.2.10.Final}
+11-10-2017 15:28:32 INFO  org.hibernate.cfg.Environment     - HHH000206: hibernate.properties not found
+11-10-2017 15:28:32 INFO  org.hibernate.annotations.common.Version     - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+11-10-2017 15:28:34 INFO  org.hibernate.dialect.Dialect     - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+11-10-2017 15:28:34 INFO  org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl     - HHH000422: Disabling contextual LOB creation as connection was null
+11-10-2017 15:28:34 INFO  org.hibernate.type.BasicTypeRegistry     - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@2d29b4ee
+11-10-2017 15:29:04 INFO  org.hibernate.Version     - HHH000412: Hibernate Core {5.2.10.Final}
+11-10-2017 15:29:04 INFO  org.hibernate.cfg.Environment     - HHH000206: hibernate.properties not found
+11-10-2017 15:29:05 INFO  org.hibernate.annotations.common.Version     - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+11-10-2017 15:29:07 INFO  org.hibernate.dialect.Dialect     - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+11-10-2017 15:29:07 INFO  org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl     - HHH000422: Disabling contextual LOB creation as connection was null
+11-10-2017 15:29:07 INFO  org.hibernate.type.BasicTypeRegistry     - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@2f953efd
+11-10-2017 15:29:50 INFO  org.hibernate.Version     - HHH000412: Hibernate Core {5.2.10.Final}
+11-10-2017 15:29:50 INFO  org.hibernate.cfg.Environment     - HHH000206: hibernate.properties not found
+11-10-2017 15:29:50 INFO  org.hibernate.annotations.common.Version     - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+11-10-2017 15:29:52 INFO  org.hibernate.dialect.Dialect     - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+11-10-2017 15:29:52 INFO  org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl     - HHH000422: Disabling contextual LOB creation as connection was null
+11-10-2017 15:29:52 INFO  org.hibernate.type.BasicTypeRegistry     - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@2f953efd
+11-10-2017 15:31:28 INFO  org.hibernate.Version     - HHH000412: Hibernate Core {5.2.10.Final}
+11-10-2017 15:31:28 INFO  org.hibernate.cfg.Environment     - HHH000206: hibernate.properties not found
+11-10-2017 15:31:28 INFO  org.hibernate.annotations.common.Version     - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+11-10-2017 15:31:30 INFO  org.hibernate.dialect.Dialect     - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+11-10-2017 15:31:31 INFO  org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl     - HHH000422: Disabling contextual LOB creation as connection was null
+11-10-2017 15:31:31 INFO  org.hibernate.type.BasicTypeRegistry     - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@2f953efd
+11-10-2017 15:31:32 WARN  org.hibernate.orm.connections.pooling     - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+11-10-2017 15:31:32 INFO  org.hibernate.orm.connections.pooling     - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5433/docChangeDb]
+11-10-2017 15:31:32 INFO  org.hibernate.orm.connections.pooling     - HHH10001001: Connection properties: {user=postgres, password=****, autocommit=false, pool_size=1}
+11-10-2017 15:31:32 INFO  org.hibernate.orm.connections.pooling     - HHH10001003: Autocommit mode: false
+11-10-2017 15:31:32 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl     - HHH000115: Hibernate connection pool size: 20 (min=1)
+11-10-2017 15:31:33 WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper     - SQL Error: 0, SQLState: 42P01
+11-10-2017 15:31:33 ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper     - ОШИБКА: отношение "record" не существует
+  Позиция: 8
+11-10-2017 15:31:33 INFO  org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl     - HHH000010: On release of batch it still contained JDBC statements
+11-10-2017 15:31:33 ERROR org.hibernate.internal.ExceptionMapperStandardImpl     - HHH000346: Error during managed flush [org.hibernate.exception.SQLGrammarException: could not execute statement]
+11-10-2017 15:34:53 INFO  org.hibernate.Version     - HHH000412: Hibernate Core {5.2.10.Final}
+11-10-2017 15:34:53 INFO  org.hibernate.cfg.Environment     - HHH000206: hibernate.properties not found
+11-10-2017 15:34:54 INFO  org.hibernate.annotations.common.Version     - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+11-10-2017 15:34:56 INFO  org.hibernate.dialect.Dialect     - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+11-10-2017 15:34:56 INFO  org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl     - HHH000422: Disabling contextual LOB creation as connection was null
+11-10-2017 15:34:56 INFO  org.hibernate.type.BasicTypeRegistry     - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@2f953efd
+11-10-2017 15:34:57 WARN  org.hibernate.orm.connections.pooling     - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+11-10-2017 15:34:57 INFO  org.hibernate.orm.connections.pooling     - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5433/docChangeDb]
+11-10-2017 15:34:57 INFO  org.hibernate.orm.connections.pooling     - HHH10001001: Connection properties: {user=postgres, password=****, autocommit=false, pool_size=1}
+11-10-2017 15:34:57 INFO  org.hibernate.orm.connections.pooling     - HHH10001003: Autocommit mode: false
+11-10-2017 15:34:57 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl     - HHH000115: Hibernate connection pool size: 20 (min=1)
+11-10-2017 15:34:57 WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper     - SQL Error: 0, SQLState: 42P01
+11-10-2017 15:34:57 ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper     - ОШИБКА: отношение "record" не существует
+  Позиция: 8
+11-10-2017 15:34:57 INFO  org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl     - HHH000010: On release of batch it still contained JDBC statements
+11-10-2017 15:34:57 ERROR org.hibernate.internal.ExceptionMapperStandardImpl     - HHH000346: Error during managed flush [org.hibernate.exception.SQLGrammarException: could not execute statement]
+11-10-2017 15:36:08 INFO  org.hibernate.Version     - HHH000412: Hibernate Core {5.2.10.Final}
+11-10-2017 15:36:08 INFO  org.hibernate.cfg.Environment     - HHH000206: hibernate.properties not found
+11-10-2017 15:36:09 INFO  org.hibernate.annotations.common.Version     - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+11-10-2017 15:36:11 INFO  org.hibernate.dialect.Dialect     - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+11-10-2017 15:36:11 INFO  org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl     - HHH000422: Disabling contextual LOB creation as connection was null
+11-10-2017 15:36:11 INFO  org.hibernate.type.BasicTypeRegistry     - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@2f953efd
+11-10-2017 15:36:12 WARN  org.hibernate.orm.connections.pooling     - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+11-10-2017 15:36:12 INFO  org.hibernate.orm.connections.pooling     - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5433/docChangeDb]
+11-10-2017 15:36:12 INFO  org.hibernate.orm.connections.pooling     - HHH10001001: Connection properties: {user=postgres, password=****, autocommit=false, pool_size=1}
+11-10-2017 15:36:12 INFO  org.hibernate.orm.connections.pooling     - HHH10001003: Autocommit mode: false
+11-10-2017 15:36:12 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl     - HHH000115: Hibernate connection pool size: 20 (min=1)
+11-10-2017 15:36:13 WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper     - SQL Error: 0, SQLState: 42P01
+11-10-2017 15:36:13 ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper     - ОШИБКА: отношение "public.record" не существует
+  Позиция: 8
+11-10-2017 15:36:13 INFO  org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl     - HHH000010: On release of batch it still contained JDBC statements
+11-10-2017 15:36:13 ERROR org.hibernate.internal.ExceptionMapperStandardImpl     - HHH000346: Error during managed flush [org.hibernate.exception.SQLGrammarException: could not execute statement]
+11-10-2017 15:38:02 INFO  org.hibernate.Version     - HHH000412: Hibernate Core {5.2.10.Final}
+11-10-2017 15:38:02 INFO  org.hibernate.cfg.Environment     - HHH000206: hibernate.properties not found
+11-10-2017 15:38:03 INFO  org.hibernate.annotations.common.Version     - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+11-10-2017 15:38:05 INFO  org.hibernate.dialect.Dialect     - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+11-10-2017 15:38:05 INFO  org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl     - HHH000422: Disabling contextual LOB creation as connection was null
+11-10-2017 15:38:05 INFO  org.hibernate.type.BasicTypeRegistry     - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@2f953efd
+11-10-2017 15:38:07 WARN  org.hibernate.orm.connections.pooling     - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+11-10-2017 15:38:07 INFO  org.hibernate.orm.connections.pooling     - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5433/docChangeDb]
+11-10-2017 15:38:07 INFO  org.hibernate.orm.connections.pooling     - HHH10001001: Connection properties: {user=postgres, password=****, autocommit=false, pool_size=1}
+11-10-2017 15:38:07 INFO  org.hibernate.orm.connections.pooling     - HHH10001003: Autocommit mode: false
+11-10-2017 15:38:07 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl     - HHH000115: Hibernate connection pool size: 20 (min=1)
+11-10-2017 15:38:07 WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper     - SQL Error: 0, SQLState: 42P01
+11-10-2017 15:38:07 ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper     - ОШИБКА: отношение "record" не существует
+  Позиция: 8
+11-10-2017 15:38:07 INFO  org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl     - HHH000010: On release of batch it still contained JDBC statements
+11-10-2017 15:38:07 ERROR org.hibernate.internal.ExceptionMapperStandardImpl     - HHH000346: Error during managed flush [org.hibernate.exception.SQLGrammarException: could not execute statement]
+11-10-2017 15:38:28 INFO  org.hibernate.Version     - HHH000412: Hibernate Core {5.2.10.Final}
+11-10-2017 15:38:28 INFO  org.hibernate.cfg.Environment     - HHH000206: hibernate.properties not found
+11-10-2017 15:38:28 INFO  org.hibernate.annotations.common.Version     - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+11-10-2017 15:38:31 INFO  org.hibernate.dialect.Dialect     - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+11-10-2017 15:38:31 INFO  org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl     - HHH000422: Disabling contextual LOB creation as connection was null
+11-10-2017 15:38:31 INFO  org.hibernate.type.BasicTypeRegistry     - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@2f953efd
+11-10-2017 15:38:32 WARN  org.hibernate.orm.connections.pooling     - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+11-10-2017 15:38:32 INFO  org.hibernate.orm.connections.pooling     - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5433/docChangeDb]
+11-10-2017 15:38:32 INFO  org.hibernate.orm.connections.pooling     - HHH10001001: Connection properties: {user=postgres, password=****, autocommit=false, pool_size=1}
+11-10-2017 15:38:32 INFO  org.hibernate.orm.connections.pooling     - HHH10001003: Autocommit mode: false
+11-10-2017 15:38:32 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl     - HHH000115: Hibernate connection pool size: 20 (min=1)
+11-10-2017 15:38:32 ERROR org.hibernate.internal.ExceptionMapperStandardImpl     - HHH000346: Error during managed flush [Batch update returned unexpected row count from update [0]; actual row count: 0; expected: 1]
+11-10-2017 15:38:32 INFO  org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl     - HHH000010: On release of batch it still contained JDBC statements
+11-10-2017 15:39:58 INFO  org.hibernate.Version     - HHH000412: Hibernate Core {5.2.10.Final}
+11-10-2017 15:39:58 INFO  org.hibernate.cfg.Environment     - HHH000206: hibernate.properties not found
+11-10-2017 15:39:59 INFO  org.hibernate.annotations.common.Version     - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+11-10-2017 15:40:01 INFO  org.hibernate.dialect.Dialect     - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+11-10-2017 15:40:01 INFO  org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl     - HHH000422: Disabling contextual LOB creation as connection was null
+11-10-2017 15:40:01 INFO  org.hibernate.type.BasicTypeRegistry     - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@2f953efd
+11-10-2017 15:40:03 WARN  org.hibernate.orm.connections.pooling     - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+11-10-2017 15:40:03 INFO  org.hibernate.orm.connections.pooling     - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5433/docChangeDb]
+11-10-2017 15:40:03 INFO  org.hibernate.orm.connections.pooling     - HHH10001001: Connection properties: {user=postgres, password=****, autocommit=false, pool_size=1}
+11-10-2017 15:40:03 INFO  org.hibernate.orm.connections.pooling     - HHH10001003: Autocommit mode: false
+11-10-2017 15:40:03 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl     - HHH000115: Hibernate connection pool size: 20 (min=1)
+11-10-2017 15:40:03 INFO  org.hibernate.orm.connections.access     - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@3f19b8b3] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+11-10-2017 15:40:03 WARN  org.hibernate.tool.schema.internal.ExceptionHandlerLoggedImpl     - GenerationTarget encountered exception accepting command : Error executing DDL via JDBC Statement
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlString(AbstractSchemaMigrator.java:525)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlStrings(AbstractSchemaMigrator.java:470)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.createTable(AbstractSchemaMigrator.java:273)
+	at org.hibernate.tool.schema.internal.GroupedSchemaMigratorImpl.performTablesMigration(GroupedSchemaMigratorImpl.java:71)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.performMigration(AbstractSchemaMigrator.java:203)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:110)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:183)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:72)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:309)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:452)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:710)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:726)
+	at util.HibernateUtil.getSessionFactory(HibernateUtil.java:27)
+	at util.HDBUtil.<init>(HDBUtil.java:18)
+	at docchange.my.Main.<clinit>(Main.java:11)
+Caused by: org.postgresql.util.PSQLException: ОШИБКА: отношение "user" уже существует
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2102)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1835)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:257)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:500)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:374)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:366)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54)
+	... 15 more
+11-10-2017 15:40:03 WARN  org.hibernate.tool.schema.internal.ExceptionHandlerLoggedImpl     - GenerationTarget encountered exception accepting command : Error executing DDL via JDBC Statement
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlString(AbstractSchemaMigrator.java:525)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlStrings(AbstractSchemaMigrator.java:546)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.migrateTable(AbstractSchemaMigrator.java:293)
+	at org.hibernate.tool.schema.internal.GroupedSchemaMigratorImpl.performTablesMigration(GroupedSchemaMigratorImpl.java:75)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.performMigration(AbstractSchemaMigrator.java:203)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:110)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:183)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:72)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:309)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:452)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:710)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:726)
+	at util.HibernateUtil.getSessionFactory(HibernateUtil.java:27)
+	at util.HDBUtil.<init>(HDBUtil.java:18)
+	at docchange.my.Main.<clinit>(Main.java:11)
+Caused by: org.postgresql.util.PSQLException: ОШИБКА: колонка "user_id" содержит значения NULL
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2102)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1835)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:257)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:500)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:374)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:366)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54)
+	... 15 more
+11-10-2017 15:40:03 WARN  org.hibernate.tool.schema.internal.ExceptionHandlerLoggedImpl     - GenerationTarget encountered exception accepting command : Error executing DDL via JDBC Statement
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlString(AbstractSchemaMigrator.java:525)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlStrings(AbstractSchemaMigrator.java:546)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.migrateTable(AbstractSchemaMigrator.java:293)
+	at org.hibernate.tool.schema.internal.GroupedSchemaMigratorImpl.performTablesMigration(GroupedSchemaMigratorImpl.java:75)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.performMigration(AbstractSchemaMigrator.java:203)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:110)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:183)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:72)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:309)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:452)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:710)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:726)
+	at util.HibernateUtil.getSessionFactory(HibernateUtil.java:27)
+	at util.HDBUtil.<init>(HDBUtil.java:18)
+	at docchange.my.Main.<clinit>(Main.java:11)
+Caused by: org.postgresql.util.PSQLException: ОШИБКА: колонка "idu" содержит значения NULL
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2102)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1835)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:257)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:500)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:374)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:366)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54)
+	... 15 more
+11-10-2017 15:40:03 WARN  org.hibernate.tool.schema.internal.ExceptionHandlerLoggedImpl     - GenerationTarget encountered exception accepting command : Error executing DDL via JDBC Statement
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlString(AbstractSchemaMigrator.java:525)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlStrings(AbstractSchemaMigrator.java:470)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applyForeignKeys(AbstractSchemaMigrator.java:429)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.performMigration(AbstractSchemaMigrator.java:245)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:110)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:183)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:72)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:309)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:452)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:710)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:726)
+	at util.HibernateUtil.getSessionFactory(HibernateUtil.java:27)
+	at util.HDBUtil.<init>(HDBUtil.java:18)
+	at docchange.my.Main.<clinit>(Main.java:11)
+Caused by: org.postgresql.util.PSQLException: ОШИБКА: ограничение "fkhv46tyojinlcmkd5g02h92vn8" для отношения "user" уже существует
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2102)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1835)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:257)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:500)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:374)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:366)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54)
+	... 14 more
+11-10-2017 15:40:04 WARN  org.hibernate.tool.schema.internal.ExceptionHandlerLoggedImpl     - GenerationTarget encountered exception accepting command : Error executing DDL via JDBC Statement
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlString(AbstractSchemaMigrator.java:525)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlStrings(AbstractSchemaMigrator.java:470)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applyForeignKeys(AbstractSchemaMigrator.java:429)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.performMigration(AbstractSchemaMigrator.java:245)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:110)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:183)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:72)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:309)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:452)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:710)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:726)
+	at util.HibernateUtil.getSessionFactory(HibernateUtil.java:27)
+	at util.HDBUtil.<init>(HDBUtil.java:18)
+	at docchange.my.Main.<clinit>(Main.java:11)
+Caused by: org.postgresql.util.PSQLException: ОШИБКА: ошибка синтаксиса (примерное положение: "user")
+  Позиция: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2102)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1835)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:257)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:500)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:374)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:366)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54)
+	... 14 more
+11-10-2017 15:40:04 ERROR org.hibernate.internal.ExceptionMapperStandardImpl     - HHH000346: Error during managed flush [Batch update returned unexpected row count from update [0]; actual row count: 0; expected: 1]
+11-10-2017 15:40:04 INFO  org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl     - HHH000010: On release of batch it still contained JDBC statements
+11-10-2017 15:47:52 INFO  org.hibernate.Version     - HHH000412: Hibernate Core {5.2.10.Final}
+11-10-2017 15:47:52 INFO  org.hibernate.cfg.Environment     - HHH000206: hibernate.properties not found
+11-10-2017 15:47:52 INFO  org.hibernate.annotations.common.Version     - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+11-10-2017 15:47:55 INFO  org.hibernate.dialect.Dialect     - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+11-10-2017 15:47:55 INFO  org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl     - HHH000422: Disabling contextual LOB creation as connection was null
+11-10-2017 15:47:55 INFO  org.hibernate.type.BasicTypeRegistry     - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@2f953efd
+11-10-2017 15:47:56 WARN  org.hibernate.orm.connections.pooling     - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+11-10-2017 15:47:56 INFO  org.hibernate.orm.connections.pooling     - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5433/docChangeDb]
+11-10-2017 15:47:56 INFO  org.hibernate.orm.connections.pooling     - HHH10001001: Connection properties: {user=postgres, password=****, autocommit=false, pool_size=1}
+11-10-2017 15:47:56 INFO  org.hibernate.orm.connections.pooling     - HHH10001003: Autocommit mode: false
+11-10-2017 15:47:56 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl     - HHH000115: Hibernate connection pool size: 20 (min=1)
+11-10-2017 15:47:56 INFO  org.hibernate.orm.connections.access     - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@b91d8c4] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+11-10-2017 15:47:56 WARN  org.hibernate.tool.schema.internal.ExceptionHandlerLoggedImpl     - GenerationTarget encountered exception accepting command : Error executing DDL via JDBC Statement
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlString(SchemaDropperImpl.java:375)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlStrings(SchemaDropperImpl.java:359)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applyConstraintDropping(SchemaDropperImpl.java:331)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.dropFromMetadata(SchemaDropperImpl.java:230)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.performDrop(SchemaDropperImpl.java:154)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:126)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:112)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:144)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:72)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:309)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:452)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:710)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:726)
+	at util.HibernateUtil.getSessionFactory(HibernateUtil.java:27)
+	at util.HDBUtil.<init>(HDBUtil.java:18)
+	at docchange.my.Main.<clinit>(Main.java:11)
+Caused by: org.postgresql.util.PSQLException: ОШИБКА: ошибка синтаксиса (примерное положение: "user")
+  Позиция: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2102)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1835)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:257)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:500)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:374)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:366)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54)
+	... 16 more
+11-10-2017 15:47:57 WARN  org.hibernate.tool.schema.internal.ExceptionHandlerLoggedImpl     - GenerationTarget encountered exception accepting command : Error executing DDL via JDBC Statement
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlString(SchemaDropperImpl.java:375)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlStrings(SchemaDropperImpl.java:359)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.dropFromMetadata(SchemaDropperImpl.java:241)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.performDrop(SchemaDropperImpl.java:154)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:126)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:112)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:144)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:72)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:309)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:452)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:710)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:726)
+	at util.HibernateUtil.getSessionFactory(HibernateUtil.java:27)
+	at util.HDBUtil.<init>(HDBUtil.java:18)
+	at docchange.my.Main.<clinit>(Main.java:11)
+Caused by: org.postgresql.util.PSQLException: ОШИБКА: ошибка синтаксиса (примерное положение: "user")
+  Позиция: 22
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2102)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1835)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:257)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:500)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:374)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:366)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54)
+	... 15 more
+11-10-2017 15:47:57 INFO  org.hibernate.orm.connections.access     - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@46074492] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+11-10-2017 15:47:57 WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper     - SQL Warning Code: 0, SQLState: 00000
+11-10-2017 15:47:57 WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper     - CREATE TABLE / PRIMARY KEY создаст неявный индекс "dep_pkey" для таблицы "dep"
+11-10-2017 15:47:57 WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper     - SQL Warning Code: 0, SQLState: 00000
+11-10-2017 15:47:57 WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper     - CREATE TABLE / PRIMARY KEY создаст неявный индекс "user_pkey" для таблицы "user"
+11-10-2017 15:47:57 WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper     - SQL Warning Code: 0, SQLState: 00000
+11-10-2017 15:47:57 WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper     - CREATE TABLE / PRIMARY KEY создаст неявный индекс "record_pkey" для таблицы "record"
+11-10-2017 15:47:57 WARN  org.hibernate.tool.schema.internal.ExceptionHandlerLoggedImpl     - GenerationTarget encountered exception accepting command : Error executing DDL via JDBC Statement
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.applySqlString(SchemaCreatorImpl.java:440)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.applySqlStrings(SchemaCreatorImpl.java:424)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.createFromMetadata(SchemaCreatorImpl.java:315)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.performCreation(SchemaCreatorImpl.java:166)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:135)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:121)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:155)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:72)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:309)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:452)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:710)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:726)
+	at util.HibernateUtil.getSessionFactory(HibernateUtil.java:27)
+	at util.HDBUtil.<init>(HDBUtil.java:18)
+	at docchange.my.Main.<clinit>(Main.java:11)
+Caused by: org.postgresql.util.PSQLException: ОШИБКА: ошибка синтаксиса (примерное положение: "user")
+  Позиция: 14
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2102)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1835)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:257)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:500)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:374)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:366)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54)
+	... 15 more
+11-10-2017 15:47:57 WARN  org.hibernate.tool.schema.internal.ExceptionHandlerLoggedImpl     - GenerationTarget encountered exception accepting command : Error executing DDL via JDBC Statement
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.applySqlString(SchemaCreatorImpl.java:440)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.applySqlStrings(SchemaCreatorImpl.java:424)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.createFromMetadata(SchemaCreatorImpl.java:375)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.performCreation(SchemaCreatorImpl.java:166)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:135)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:121)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:155)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:72)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:309)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:452)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:710)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:726)
+	at util.HibernateUtil.getSessionFactory(HibernateUtil.java:27)
+	at util.HDBUtil.<init>(HDBUtil.java:18)
+	at docchange.my.Main.<clinit>(Main.java:11)
+Caused by: org.postgresql.util.PSQLException: ОШИБКА: ошибка синтаксиса (примерное положение: "user")
+  Позиция: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2102)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1835)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:257)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:500)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:374)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:366)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54)
+	... 15 more
+11-10-2017 15:47:57 INFO  org.hibernate.tool.schema.internal.SchemaCreatorImpl     - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@72b16078'
+11-10-2017 15:47:57 ERROR org.hibernate.internal.ExceptionMapperStandardImpl     - HHH000346: Error during managed flush [Batch update returned unexpected row count from update [0]; actual row count: 0; expected: 1]
+11-10-2017 15:47:57 INFO  org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl     - HHH000010: On release of batch it still contained JDBC statements
+11-10-2017 15:54:36 INFO  org.hibernate.Version     - HHH000412: Hibernate Core {5.2.10.Final}
+11-10-2017 15:54:36 INFO  org.hibernate.cfg.Environment     - HHH000206: hibernate.properties not found
+11-10-2017 15:54:36 INFO  org.hibernate.annotations.common.Version     - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+11-10-2017 15:54:38 INFO  org.hibernate.dialect.Dialect     - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+11-10-2017 15:54:38 INFO  org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl     - HHH000422: Disabling contextual LOB creation as connection was null
+11-10-2017 15:54:38 INFO  org.hibernate.type.BasicTypeRegistry     - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@2f953efd
+11-10-2017 15:54:40 WARN  org.hibernate.orm.connections.pooling     - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+11-10-2017 15:54:40 INFO  org.hibernate.orm.connections.pooling     - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5433/docChangeDb]
+11-10-2017 15:54:40 INFO  org.hibernate.orm.connections.pooling     - HHH10001001: Connection properties: {user=postgres, password=****, autocommit=false, pool_size=1}
+11-10-2017 15:54:40 INFO  org.hibernate.orm.connections.pooling     - HHH10001003: Autocommit mode: false
+11-10-2017 15:54:40 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl     - HHH000115: Hibernate connection pool size: 20 (min=1)
+11-10-2017 15:54:40 INFO  org.hibernate.orm.connections.access     - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@b91d8c4] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+11-10-2017 15:54:40 WARN  org.hibernate.tool.schema.internal.ExceptionHandlerLoggedImpl     - GenerationTarget encountered exception accepting command : Error executing DDL via JDBC Statement
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlString(SchemaDropperImpl.java:375)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlStrings(SchemaDropperImpl.java:359)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applyConstraintDropping(SchemaDropperImpl.java:331)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.dropFromMetadata(SchemaDropperImpl.java:230)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.performDrop(SchemaDropperImpl.java:154)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:126)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:112)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:144)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:72)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:309)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:452)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:710)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:726)
+	at util.HibernateUtil.getSessionFactory(HibernateUtil.java:27)
+	at util.HDBUtil.<init>(HDBUtil.java:18)
+	at docchange.my.Main.<clinit>(Main.java:11)
+Caused by: org.postgresql.util.PSQLException: ОШИБКА: ошибка синтаксиса (примерное положение: "user")
+  Позиция: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2102)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1835)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:257)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:500)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:374)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:366)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54)
+	... 16 more
+11-10-2017 15:54:40 WARN  org.hibernate.tool.schema.internal.ExceptionHandlerLoggedImpl     - GenerationTarget encountered exception accepting command : Error executing DDL via JDBC Statement
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlString(SchemaDropperImpl.java:375)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlStrings(SchemaDropperImpl.java:359)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.dropFromMetadata(SchemaDropperImpl.java:241)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.performDrop(SchemaDropperImpl.java:154)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:126)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:112)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:144)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:72)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:309)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:452)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:710)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:726)
+	at util.HibernateUtil.getSessionFactory(HibernateUtil.java:27)
+	at util.HDBUtil.<init>(HDBUtil.java:18)
+	at docchange.my.Main.<clinit>(Main.java:11)
+Caused by: org.postgresql.util.PSQLException: ОШИБКА: ошибка синтаксиса (примерное положение: "user")
+  Позиция: 22
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2102)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1835)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:257)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:500)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:374)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:366)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54)
+	... 15 more
+11-10-2017 15:54:40 INFO  org.hibernate.orm.connections.access     - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@46074492] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+11-10-2017 15:54:40 WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper     - SQL Warning Code: 0, SQLState: 00000
+11-10-2017 15:54:40 WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper     - CREATE TABLE / PRIMARY KEY создаст неявный индекс "dep_pkey" для таблицы "dep"
+11-10-2017 15:54:40 WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper     - SQL Warning Code: 0, SQLState: 00000
+11-10-2017 15:54:40 WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper     - CREATE TABLE / PRIMARY KEY создаст неявный индекс "user_pkey" для таблицы "user"
+11-10-2017 15:54:40 WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper     - SQL Warning Code: 0, SQLState: 00000
+11-10-2017 15:54:40 WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper     - CREATE TABLE / PRIMARY KEY создаст неявный индекс "record_pkey" для таблицы "record"
+11-10-2017 15:54:40 WARN  org.hibernate.tool.schema.internal.ExceptionHandlerLoggedImpl     - GenerationTarget encountered exception accepting command : Error executing DDL via JDBC Statement
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.applySqlString(SchemaCreatorImpl.java:440)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.applySqlStrings(SchemaCreatorImpl.java:424)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.createFromMetadata(SchemaCreatorImpl.java:315)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.performCreation(SchemaCreatorImpl.java:166)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:135)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:121)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:155)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:72)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:309)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:452)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:710)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:726)
+	at util.HibernateUtil.getSessionFactory(HibernateUtil.java:27)
+	at util.HDBUtil.<init>(HDBUtil.java:18)
+	at docchange.my.Main.<clinit>(Main.java:11)
+Caused by: org.postgresql.util.PSQLException: ОШИБКА: ошибка синтаксиса (примерное положение: "user")
+  Позиция: 14
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2102)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1835)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:257)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:500)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:374)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:366)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54)
+	... 15 more
+11-10-2017 15:54:40 WARN  org.hibernate.tool.schema.internal.ExceptionHandlerLoggedImpl     - GenerationTarget encountered exception accepting command : Error executing DDL via JDBC Statement
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.applySqlString(SchemaCreatorImpl.java:440)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.applySqlStrings(SchemaCreatorImpl.java:424)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.createFromMetadata(SchemaCreatorImpl.java:375)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.performCreation(SchemaCreatorImpl.java:166)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:135)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:121)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:155)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:72)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:309)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:452)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:710)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:726)
+	at util.HibernateUtil.getSessionFactory(HibernateUtil.java:27)
+	at util.HDBUtil.<init>(HDBUtil.java:18)
+	at docchange.my.Main.<clinit>(Main.java:11)
+Caused by: org.postgresql.util.PSQLException: ОШИБКА: ошибка синтаксиса (примерное положение: "user")
+  Позиция: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2102)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1835)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:257)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:500)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:374)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:366)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54)
+	... 15 more
+11-10-2017 15:54:40 INFO  org.hibernate.tool.schema.internal.SchemaCreatorImpl     - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@72b16078'
+11-10-2017 15:54:41 ERROR org.hibernate.internal.ExceptionMapperStandardImpl     - HHH000346: Error during managed flush [Batch update returned unexpected row count from update [0]; actual row count: 0; expected: 1]
+11-10-2017 15:54:41 INFO  org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl     - HHH000010: On release of batch it still contained JDBC statements
+11-10-2017 15:57:23 INFO  org.hibernate.Version     - HHH000412: Hibernate Core {5.2.10.Final}
+11-10-2017 15:57:23 INFO  org.hibernate.cfg.Environment     - HHH000206: hibernate.properties not found
+11-10-2017 15:57:23 INFO  org.hibernate.annotations.common.Version     - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+11-10-2017 15:58:18 INFO  org.hibernate.Version     - HHH000412: Hibernate Core {5.2.10.Final}
+11-10-2017 15:58:18 INFO  org.hibernate.cfg.Environment     - HHH000206: hibernate.properties not found
+11-10-2017 15:58:18 INFO  org.hibernate.annotations.common.Version     - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+11-10-2017 15:59:17 INFO  org.hibernate.Version     - HHH000412: Hibernate Core {5.2.10.Final}
+11-10-2017 15:59:17 INFO  org.hibernate.cfg.Environment     - HHH000206: hibernate.properties not found
+11-10-2017 15:59:17 INFO  org.hibernate.annotations.common.Version     - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+11-10-2017 15:59:20 INFO  org.hibernate.dialect.Dialect     - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+11-10-2017 15:59:20 INFO  org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl     - HHH000422: Disabling contextual LOB creation as connection was null
+11-10-2017 15:59:20 INFO  org.hibernate.type.BasicTypeRegistry     - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@2f953efd
+11-10-2017 15:59:21 WARN  org.hibernate.orm.connections.pooling     - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+11-10-2017 15:59:21 INFO  org.hibernate.orm.connections.pooling     - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5433/docChangeDb]
+11-10-2017 15:59:21 INFO  org.hibernate.orm.connections.pooling     - HHH10001001: Connection properties: {user=postgres, password=****, autocommit=false, pool_size=1}
+11-10-2017 15:59:21 INFO  org.hibernate.orm.connections.pooling     - HHH10001003: Autocommit mode: false
+11-10-2017 15:59:21 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl     - HHH000115: Hibernate connection pool size: 20 (min=1)
+11-10-2017 15:59:21 ERROR org.hibernate.internal.ExceptionMapperStandardImpl     - HHH000346: Error during managed flush [Batch update returned unexpected row count from update [0]; actual row count: 0; expected: 1]
+11-10-2017 15:59:21 INFO  org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl     - HHH000010: On release of batch it still contained JDBC statements
+11-10-2017 16:04:23 INFO  org.hibernate.Version     - HHH000412: Hibernate Core {5.2.10.Final}
+11-10-2017 16:04:23 INFO  org.hibernate.cfg.Environment     - HHH000206: hibernate.properties not found
+11-10-2017 16:04:24 INFO  org.hibernate.annotations.common.Version     - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+11-10-2017 16:04:26 INFO  org.hibernate.dialect.Dialect     - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+11-10-2017 16:04:26 INFO  org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl     - HHH000422: Disabling contextual LOB creation as connection was null
+11-10-2017 16:04:26 INFO  org.hibernate.type.BasicTypeRegistry     - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@45385f75
+11-10-2017 16:04:28 WARN  org.hibernate.orm.connections.pooling     - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+11-10-2017 16:04:28 INFO  org.hibernate.orm.connections.pooling     - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5433/docChangeDb]
+11-10-2017 16:04:28 INFO  org.hibernate.orm.connections.pooling     - HHH10001001: Connection properties: {user=postgres, password=****, autocommit=false, pool_size=1}
+11-10-2017 16:04:28 INFO  org.hibernate.orm.connections.pooling     - HHH10001003: Autocommit mode: false
+11-10-2017 16:04:28 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl     - HHH000115: Hibernate connection pool size: 20 (min=1)
+11-10-2017 16:04:28 INFO  org.apache.commons.logging.impl.Log4JLogger     - Added new Department to data base. docchange.my.Dep@13006998
+11-10-2017 16:04:56 INFO  org.hibernate.Version     - HHH000412: Hibernate Core {5.2.10.Final}
+11-10-2017 16:04:57 INFO  org.hibernate.cfg.Environment     - HHH000206: hibernate.properties not found
+11-10-2017 16:04:57 INFO  org.hibernate.annotations.common.Version     - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+11-10-2017 16:04:59 INFO  org.hibernate.dialect.Dialect     - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+11-10-2017 16:04:59 INFO  org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl     - HHH000422: Disabling contextual LOB creation as connection was null
+11-10-2017 16:04:59 INFO  org.hibernate.type.BasicTypeRegistry     - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@2f953efd
+11-10-2017 16:05:00 WARN  org.hibernate.orm.connections.pooling     - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+11-10-2017 16:05:00 INFO  org.hibernate.orm.connections.pooling     - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5433/docChangeDb]
+11-10-2017 16:05:00 INFO  org.hibernate.orm.connections.pooling     - HHH10001001: Connection properties: {user=postgres, password=****, autocommit=false, pool_size=1}
+11-10-2017 16:05:00 INFO  org.hibernate.orm.connections.pooling     - HHH10001003: Autocommit mode: false
+11-10-2017 16:05:00 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl     - HHH000115: Hibernate connection pool size: 20 (min=1)
+11-10-2017 16:05:01 INFO  org.apache.commons.logging.impl.Log4JLogger     - Added new Department to data base. docchange.my.Dep@3174cb09
+11-10-2017 16:05:13 INFO  org.hibernate.Version     - HHH000412: Hibernate Core {5.2.10.Final}
+11-10-2017 16:05:13 INFO  org.hibernate.cfg.Environment     - HHH000206: hibernate.properties not found
+11-10-2017 16:05:14 INFO  org.hibernate.annotations.common.Version     - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+11-10-2017 16:05:16 INFO  org.hibernate.dialect.Dialect     - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+11-10-2017 16:05:16 INFO  org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl     - HHH000422: Disabling contextual LOB creation as connection was null
+11-10-2017 16:05:16 INFO  org.hibernate.type.BasicTypeRegistry     - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@2f953efd
+11-10-2017 16:05:17 WARN  org.hibernate.orm.connections.pooling     - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+11-10-2017 16:05:17 INFO  org.hibernate.orm.connections.pooling     - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5433/docChangeDb]
+11-10-2017 16:05:17 INFO  org.hibernate.orm.connections.pooling     - HHH10001001: Connection properties: {user=postgres, password=****, autocommit=false, pool_size=1}
+11-10-2017 16:05:17 INFO  org.hibernate.orm.connections.pooling     - HHH10001003: Autocommit mode: false
+11-10-2017 16:05:17 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl     - HHH000115: Hibernate connection pool size: 20 (min=1)
+11-10-2017 16:05:18 INFO  org.apache.commons.logging.impl.Log4JLogger     - Added new Department to data base. docchange.my.Dep@560513ce
+11-10-2017 16:05:38 INFO  org.hibernate.Version     - HHH000412: Hibernate Core {5.2.10.Final}
+11-10-2017 16:05:38 INFO  org.hibernate.cfg.Environment     - HHH000206: hibernate.properties not found
+11-10-2017 16:05:38 INFO  org.hibernate.annotations.common.Version     - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+11-10-2017 16:05:41 INFO  org.hibernate.dialect.Dialect     - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+11-10-2017 16:05:41 INFO  org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl     - HHH000422: Disabling contextual LOB creation as connection was null
+11-10-2017 16:05:41 INFO  org.hibernate.type.BasicTypeRegistry     - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@2f953efd
+11-10-2017 16:05:42 WARN  org.hibernate.orm.connections.pooling     - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+11-10-2017 16:05:42 INFO  org.hibernate.orm.connections.pooling     - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5433/docChangeDb]
+11-10-2017 16:05:42 INFO  org.hibernate.orm.connections.pooling     - HHH10001001: Connection properties: {user=postgres, password=****, autocommit=false, pool_size=1}
+11-10-2017 16:05:42 INFO  org.hibernate.orm.connections.pooling     - HHH10001003: Autocommit mode: false
+11-10-2017 16:05:42 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl     - HHH000115: Hibernate connection pool size: 20 (min=1)
+11-10-2017 16:05:42 ERROR org.hibernate.internal.ExceptionMapperStandardImpl     - HHH000346: Error during managed flush [Batch update returned unexpected row count from update [0]; actual row count: 0; expected: 1]
+11-10-2017 16:05:42 INFO  org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl     - HHH000010: On release of batch it still contained JDBC statements
+11-10-2017 16:48:26 INFO  org.hibernate.Version     - HHH000412: Hibernate Core {5.2.10.Final}
+11-10-2017 16:48:26 INFO  org.hibernate.cfg.Environment     - HHH000206: hibernate.properties not found
+11-10-2017 16:48:27 INFO  org.hibernate.annotations.common.Version     - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+11-10-2017 16:48:29 INFO  org.hibernate.dialect.Dialect     - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+11-10-2017 16:48:29 INFO  org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl     - HHH000422: Disabling contextual LOB creation as connection was null
+11-10-2017 16:48:29 INFO  org.hibernate.type.BasicTypeRegistry     - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@2f953efd
+11-10-2017 16:48:31 WARN  org.hibernate.orm.connections.pooling     - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+11-10-2017 16:48:31 INFO  org.hibernate.orm.connections.pooling     - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5433/docChangeDb]
+11-10-2017 16:48:31 INFO  org.hibernate.orm.connections.pooling     - HHH10001001: Connection properties: {user=postgres, password=****, autocommit=false, pool_size=1}
+11-10-2017 16:48:31 INFO  org.hibernate.orm.connections.pooling     - HHH10001003: Autocommit mode: false
+11-10-2017 16:48:31 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl     - HHH000115: Hibernate connection pool size: 20 (min=1)
+11-10-2017 16:48:31 INFO  org.apache.commons.logging.impl.Log4JLogger     - Added new Department to data base. docchange.my.Dep@7d373bcf
+11-10-2017 16:49:32 INFO  org.hibernate.Version     - HHH000412: Hibernate Core {5.2.10.Final}
+11-10-2017 16:49:32 INFO  org.hibernate.cfg.Environment     - HHH000206: hibernate.properties not found
+11-10-2017 16:49:32 INFO  org.hibernate.annotations.common.Version     - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+11-10-2017 16:49:35 INFO  org.hibernate.dialect.Dialect     - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+11-10-2017 16:49:35 INFO  org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl     - HHH000422: Disabling contextual LOB creation as connection was null
+11-10-2017 16:49:35 INFO  org.hibernate.type.BasicTypeRegistry     - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@2d29b4ee
+11-10-2017 16:49:36 WARN  org.hibernate.orm.connections.pooling     - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+11-10-2017 16:49:36 INFO  org.hibernate.orm.connections.pooling     - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5433/docChangeDb]
+11-10-2017 16:49:36 INFO  org.hibernate.orm.connections.pooling     - HHH10001001: Connection properties: {user=postgres, password=****, autocommit=false, pool_size=1}
+11-10-2017 16:49:36 INFO  org.hibernate.orm.connections.pooling     - HHH10001003: Autocommit mode: false
+11-10-2017 16:49:36 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl     - HHH000115: Hibernate connection pool size: 20 (min=1)
+11-10-2017 16:49:36 WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper     - SQL Error: 0, SQLState: 42601
+11-10-2017 16:49:36 ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper     - ОШИБКА: ошибка синтаксиса (примерное положение: "user")
+  Позиция: 13
+11-10-2017 16:49:36 INFO  org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl     - HHH000010: On release of batch it still contained JDBC statements
+11-10-2017 16:49:36 ERROR org.hibernate.internal.ExceptionMapperStandardImpl     - HHH000346: Error during managed flush [org.hibernate.exception.SQLGrammarException: could not execute statement]
+11-10-2017 16:50:08 INFO  org.hibernate.Version     - HHH000412: Hibernate Core {5.2.10.Final}
+11-10-2017 16:50:08 INFO  org.hibernate.cfg.Environment     - HHH000206: hibernate.properties not found
+11-10-2017 16:50:08 INFO  org.hibernate.annotations.common.Version     - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+11-10-2017 16:50:11 INFO  org.hibernate.dialect.Dialect     - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+11-10-2017 16:50:11 INFO  org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl     - HHH000422: Disabling contextual LOB creation as connection was null
+11-10-2017 16:50:11 INFO  org.hibernate.type.BasicTypeRegistry     - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@2f953efd
+11-10-2017 16:50:12 WARN  org.hibernate.orm.connections.pooling     - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+11-10-2017 16:50:12 INFO  org.hibernate.orm.connections.pooling     - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5433/docChangeDb]
+11-10-2017 16:50:12 INFO  org.hibernate.orm.connections.pooling     - HHH10001001: Connection properties: {user=postgres, password=****, autocommit=false, pool_size=1}
+11-10-2017 16:50:12 INFO  org.hibernate.orm.connections.pooling     - HHH10001003: Autocommit mode: false
+11-10-2017 16:50:12 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl     - HHH000115: Hibernate connection pool size: 20 (min=1)
+11-10-2017 16:50:12 INFO  org.apache.commons.logging.impl.Log4JLogger     - Added new Department to data base. docchange.my.Dep@7d373bcf
+11-10-2017 16:51:41 INFO  org.hibernate.Version     - HHH000412: Hibernate Core {5.2.10.Final}
+11-10-2017 16:51:41 INFO  org.hibernate.cfg.Environment     - HHH000206: hibernate.properties not found
+11-10-2017 16:51:41 INFO  org.hibernate.annotations.common.Version     - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+11-10-2017 16:51:44 INFO  org.hibernate.dialect.Dialect     - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+11-10-2017 16:51:44 INFO  org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl     - HHH000422: Disabling contextual LOB creation as connection was null
+11-10-2017 16:51:44 INFO  org.hibernate.type.BasicTypeRegistry     - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@2f953efd
+11-10-2017 16:51:45 WARN  org.hibernate.orm.connections.pooling     - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+11-10-2017 16:51:45 INFO  org.hibernate.orm.connections.pooling     - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5433/docChangeDb]
+11-10-2017 16:51:45 INFO  org.hibernate.orm.connections.pooling     - HHH10001001: Connection properties: {user=postgres, password=****, autocommit=false, pool_size=1}
+11-10-2017 16:51:45 INFO  org.hibernate.orm.connections.pooling     - HHH10001003: Autocommit mode: false
+11-10-2017 16:51:45 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl     - HHH000115: Hibernate connection pool size: 20 (min=1)
+11-10-2017 16:51:46 INFO  org.apache.commons.logging.impl.Log4JLogger     - Added new Department to data base. docchange.my.Dep@10027fc9
+11-10-2017 16:51:56 INFO  org.hibernate.Version     - HHH000412: Hibernate Core {5.2.10.Final}
+11-10-2017 16:51:56 INFO  org.hibernate.cfg.Environment     - HHH000206: hibernate.properties not found
+11-10-2017 16:51:56 INFO  org.hibernate.annotations.common.Version     - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+11-10-2017 16:51:58 INFO  org.hibernate.dialect.Dialect     - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+11-10-2017 16:51:58 INFO  org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl     - HHH000422: Disabling contextual LOB creation as connection was null
+11-10-2017 16:51:58 INFO  org.hibernate.type.BasicTypeRegistry     - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@2f953efd
+11-10-2017 16:52:00 WARN  org.hibernate.orm.connections.pooling     - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+11-10-2017 16:52:00 INFO  org.hibernate.orm.connections.pooling     - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5433/docChangeDb]
+11-10-2017 16:52:00 INFO  org.hibernate.orm.connections.pooling     - HHH10001001: Connection properties: {user=postgres, password=****, autocommit=false, pool_size=1}
+11-10-2017 16:52:00 INFO  org.hibernate.orm.connections.pooling     - HHH10001003: Autocommit mode: false
+11-10-2017 16:52:00 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl     - HHH000115: Hibernate connection pool size: 20 (min=1)
+11-10-2017 16:52:00 INFO  org.apache.commons.logging.impl.Log4JLogger     - Added new Department to data base. docchange.my.Dep@fff25f1
+11-10-2017 16:52:10 INFO  org.hibernate.Version     - HHH000412: Hibernate Core {5.2.10.Final}
+11-10-2017 16:52:10 INFO  org.hibernate.cfg.Environment     - HHH000206: hibernate.properties not found
+11-10-2017 16:52:10 INFO  org.hibernate.annotations.common.Version     - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+11-10-2017 16:52:13 INFO  org.hibernate.dialect.Dialect     - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+11-10-2017 16:52:13 INFO  org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl     - HHH000422: Disabling contextual LOB creation as connection was null
+11-10-2017 16:52:13 INFO  org.hibernate.type.BasicTypeRegistry     - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@2f953efd
+11-10-2017 16:52:15 WARN  org.hibernate.orm.connections.pooling     - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+11-10-2017 16:52:15 INFO  org.hibernate.orm.connections.pooling     - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5433/docChangeDb]
+11-10-2017 16:52:15 INFO  org.hibernate.orm.connections.pooling     - HHH10001001: Connection properties: {user=postgres, password=****, autocommit=false, pool_size=1}
+11-10-2017 16:52:15 INFO  org.hibernate.orm.connections.pooling     - HHH10001003: Autocommit mode: false
+11-10-2017 16:52:15 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl     - HHH000115: Hibernate connection pool size: 20 (min=1)
+11-10-2017 16:52:15 INFO  org.apache.commons.logging.impl.Log4JLogger     - Added new Department to data base. docchange.my.Dep@2ca47471
+11-10-2017 16:52:55 INFO  org.hibernate.Version     - HHH000412: Hibernate Core {5.2.10.Final}
+11-10-2017 16:52:55 INFO  org.hibernate.cfg.Environment     - HHH000206: hibernate.properties not found
+11-10-2017 16:52:56 INFO  org.hibernate.annotations.common.Version     - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+11-10-2017 16:52:58 INFO  org.hibernate.dialect.Dialect     - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+11-10-2017 16:52:58 INFO  org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl     - HHH000422: Disabling contextual LOB creation as connection was null
+11-10-2017 16:52:58 INFO  org.hibernate.type.BasicTypeRegistry     - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@2f953efd
+11-10-2017 16:53:26 INFO  org.hibernate.Version     - HHH000412: Hibernate Core {5.2.10.Final}
+11-10-2017 16:53:26 INFO  org.hibernate.cfg.Environment     - HHH000206: hibernate.properties not found
+11-10-2017 16:53:26 INFO  org.hibernate.annotations.common.Version     - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+11-10-2017 16:53:28 INFO  org.hibernate.dialect.Dialect     - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+11-10-2017 16:53:28 INFO  org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl     - HHH000422: Disabling contextual LOB creation as connection was null
+11-10-2017 16:53:28 INFO  org.hibernate.type.BasicTypeRegistry     - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@2f953efd
+11-10-2017 16:58:49 INFO  org.hibernate.Version     - HHH000412: Hibernate Core {5.2.10.Final}
+11-10-2017 16:58:49 INFO  org.hibernate.cfg.Environment     - HHH000206: hibernate.properties not found
+11-10-2017 16:58:49 INFO  org.hibernate.annotations.common.Version     - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+11-10-2017 16:58:52 INFO  org.hibernate.dialect.Dialect     - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+11-10-2017 16:58:52 INFO  org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl     - HHH000422: Disabling contextual LOB creation as connection was null
+11-10-2017 16:58:52 INFO  org.hibernate.type.BasicTypeRegistry     - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@2d29b4ee
+11-10-2017 17:00:05 INFO  org.hibernate.Version     - HHH000412: Hibernate Core {5.2.10.Final}
+11-10-2017 17:00:05 INFO  org.hibernate.cfg.Environment     - HHH000206: hibernate.properties not found
+11-10-2017 17:00:05 INFO  org.hibernate.annotations.common.Version     - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+11-10-2017 17:00:07 INFO  org.hibernate.dialect.Dialect     - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+11-10-2017 17:00:08 INFO  org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl     - HHH000422: Disabling contextual LOB creation as connection was null
+11-10-2017 17:00:08 INFO  org.hibernate.type.BasicTypeRegistry     - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@2f953efd
+11-10-2017 17:02:22 INFO  org.hibernate.Version     - HHH000412: Hibernate Core {5.2.10.Final}
+11-10-2017 17:02:23 INFO  org.hibernate.cfg.Environment     - HHH000206: hibernate.properties not found
+11-10-2017 17:02:23 INFO  org.hibernate.annotations.common.Version     - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+11-10-2017 17:02:25 INFO  org.hibernate.dialect.Dialect     - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+11-10-2017 17:02:25 INFO  org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl     - HHH000422: Disabling contextual LOB creation as connection was null
+11-10-2017 17:02:25 INFO  org.hibernate.type.BasicTypeRegistry     - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@2d29b4ee
+11-10-2017 17:02:50 INFO  org.hibernate.Version     - HHH000412: Hibernate Core {5.2.10.Final}
+11-10-2017 17:02:50 INFO  org.hibernate.cfg.Environment     - HHH000206: hibernate.properties not found
+11-10-2017 17:02:50 INFO  org.hibernate.annotations.common.Version     - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+11-10-2017 17:02:52 INFO  org.hibernate.dialect.Dialect     - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+11-10-2017 17:02:52 INFO  org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl     - HHH000422: Disabling contextual LOB creation as connection was null
+11-10-2017 17:02:52 INFO  org.hibernate.type.BasicTypeRegistry     - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@2f953efd
+11-10-2017 17:03:17 INFO  org.hibernate.Version     - HHH000412: Hibernate Core {5.2.10.Final}
+11-10-2017 17:03:17 INFO  org.hibernate.cfg.Environment     - HHH000206: hibernate.properties not found
+11-10-2017 17:03:18 INFO  org.hibernate.annotations.common.Version     - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+11-10-2017 17:03:20 INFO  org.hibernate.dialect.Dialect     - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+11-10-2017 17:03:20 INFO  org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl     - HHH000422: Disabling contextual LOB creation as connection was null
+11-10-2017 17:03:20 INFO  org.hibernate.type.BasicTypeRegistry     - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@2f953efd

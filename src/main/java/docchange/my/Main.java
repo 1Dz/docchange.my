@@ -2,7 +2,9 @@ package docchange.my;
 
 import java.util.ArrayList;
 import java.util.Date;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 import util.HDBUtil;
 
@@ -42,6 +44,15 @@ public class Main {
 		
 		dep.setUserList(list);
 		db.add(dep);
+//		User c = (User)db.get(20, User.class);
+//		System.out.println(c.toString());
+//		c.setName("Changed name");
+//		try {
+//			db.update(c);
+//		} catch (Exception e) {
+//			// TODO Auto-generated catch block
+//			e.printStackTrace();
+//		}
 	}
 
 }
