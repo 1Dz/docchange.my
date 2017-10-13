@@ -734,3 +734,159 @@ Caused by: org.postgresql.util.PSQLException: ОШИБКА: ошибка синтаксиса (примерн
 11-10-2017 17:03:20 INFO  org.hibernate.dialect.Dialect     - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
 11-10-2017 17:03:20 INFO  org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl     - HHH000422: Disabling contextual LOB creation as connection was null
 11-10-2017 17:03:20 INFO  org.hibernate.type.BasicTypeRegistry     - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@2f953efd
+13-10-2017 09:11:31 INFO  org.hibernate.Version     - HHH000412: Hibernate Core {5.2.10.Final}
+13-10-2017 09:11:31 INFO  org.hibernate.cfg.Environment     - HHH000206: hibernate.properties not found
+13-10-2017 09:11:32 INFO  org.hibernate.annotations.common.Version     - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+13-10-2017 09:11:34 INFO  org.hibernate.dialect.Dialect     - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+13-10-2017 09:11:34 INFO  org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl     - HHH000422: Disabling contextual LOB creation as connection was null
+13-10-2017 09:11:34 INFO  org.hibernate.type.BasicTypeRegistry     - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@d2de489
+13-10-2017 09:11:36 WARN  org.hibernate.orm.connections.pooling     - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+13-10-2017 09:11:36 INFO  org.hibernate.orm.connections.pooling     - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/docChangeDb]
+13-10-2017 09:11:36 INFO  org.hibernate.orm.connections.pooling     - HHH10001001: Connection properties: {user=postgres, password=****, autocommit=false, pool_size=1}
+13-10-2017 09:11:36 INFO  org.hibernate.orm.connections.pooling     - HHH10001003: Autocommit mode: false
+13-10-2017 09:11:36 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl     - HHH000115: Hibernate connection pool size: 20 (min=1)
+13-10-2017 09:11:36 INFO  org.hibernate.orm.connections.access     - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@a77614d] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+13-10-2017 09:11:36 INFO  org.hibernate.orm.connections.access     - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@517bd097] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+13-10-2017 09:11:36 INFO  org.hibernate.tool.schema.internal.SchemaCreatorImpl     - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@5990e6c5'
+13-10-2017 09:11:36 INFO  org.apache.commons.logging.impl.Log4JLogger     - Added new Department to data base. docchange.my.Dep@48e64352
+13-10-2017 09:13:09 INFO  org.hibernate.Version     - HHH000412: Hibernate Core {5.2.10.Final}
+13-10-2017 09:13:09 INFO  org.hibernate.cfg.Environment     - HHH000206: hibernate.properties not found
+13-10-2017 09:13:10 INFO  org.hibernate.annotations.common.Version     - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+13-10-2017 09:13:12 INFO  org.hibernate.dialect.Dialect     - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+13-10-2017 09:13:12 INFO  org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl     - HHH000422: Disabling contextual LOB creation as connection was null
+13-10-2017 09:13:12 INFO  org.hibernate.type.BasicTypeRegistry     - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@d2de489
+13-10-2017 09:13:13 WARN  org.hibernate.orm.connections.pooling     - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+13-10-2017 09:13:14 INFO  org.hibernate.orm.connections.pooling     - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/docChangeDb]
+13-10-2017 09:13:14 INFO  org.hibernate.orm.connections.pooling     - HHH10001001: Connection properties: {user=postgres, password=****, autocommit=false, pool_size=1}
+13-10-2017 09:13:14 INFO  org.hibernate.orm.connections.pooling     - HHH10001003: Autocommit mode: false
+13-10-2017 09:13:14 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl     - HHH000115: Hibernate connection pool size: 20 (min=1)
+13-10-2017 09:13:14 INFO  org.hibernate.orm.connections.access     - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@a77614d] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+13-10-2017 09:13:14 INFO  org.hibernate.orm.connections.access     - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@517bd097] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+13-10-2017 09:13:14 INFO  org.hibernate.tool.schema.internal.SchemaCreatorImpl     - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@5990e6c5'
+13-10-2017 09:13:14 INFO  org.apache.commons.logging.impl.Log4JLogger     - Added new Department to data base. docchange.my.Dep@48e64352
+13-10-2017 09:13:33 INFO  org.hibernate.Version     - HHH000412: Hibernate Core {5.2.10.Final}
+13-10-2017 09:13:33 INFO  org.hibernate.cfg.Environment     - HHH000206: hibernate.properties not found
+13-10-2017 09:13:34 INFO  org.hibernate.annotations.common.Version     - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+13-10-2017 09:13:36 INFO  org.hibernate.dialect.Dialect     - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+13-10-2017 09:13:36 INFO  org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl     - HHH000422: Disabling contextual LOB creation as connection was null
+13-10-2017 09:13:36 INFO  org.hibernate.type.BasicTypeRegistry     - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@d2de489
+13-10-2017 09:13:38 WARN  org.hibernate.orm.connections.pooling     - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+13-10-2017 09:13:38 INFO  org.hibernate.orm.connections.pooling     - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/docChangeDb]
+13-10-2017 09:13:38 INFO  org.hibernate.orm.connections.pooling     - HHH10001001: Connection properties: {user=postgres, password=****, autocommit=false, pool_size=1}
+13-10-2017 09:13:38 INFO  org.hibernate.orm.connections.pooling     - HHH10001003: Autocommit mode: false
+13-10-2017 09:13:38 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl     - HHH000115: Hibernate connection pool size: 20 (min=1)
+13-10-2017 09:13:38 INFO  org.hibernate.orm.connections.access     - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@a77614d] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+13-10-2017 09:13:38 INFO  org.hibernate.orm.connections.access     - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@517bd097] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+13-10-2017 09:13:38 INFO  org.hibernate.tool.schema.internal.SchemaCreatorImpl     - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@5990e6c5'
+13-10-2017 09:13:38 INFO  org.apache.commons.logging.impl.Log4JLogger     - Added new Department to data base. docchange.my.Dep@48e64352
+13-10-2017 09:14:05 INFO  org.hibernate.Version     - HHH000412: Hibernate Core {5.2.10.Final}
+13-10-2017 09:14:05 INFO  org.hibernate.cfg.Environment     - HHH000206: hibernate.properties not found
+13-10-2017 09:14:06 INFO  org.hibernate.annotations.common.Version     - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+13-10-2017 09:14:08 INFO  org.hibernate.dialect.Dialect     - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+13-10-2017 09:14:08 INFO  org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl     - HHH000422: Disabling contextual LOB creation as connection was null
+13-10-2017 09:14:08 INFO  org.hibernate.type.BasicTypeRegistry     - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@6e2aa843
+13-10-2017 09:14:10 WARN  org.hibernate.orm.connections.pooling     - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+13-10-2017 09:14:10 INFO  org.hibernate.orm.connections.pooling     - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/docChangeDb]
+13-10-2017 09:14:10 INFO  org.hibernate.orm.connections.pooling     - HHH10001001: Connection properties: {user=postgres, password=****, autocommit=false, pool_size=1}
+13-10-2017 09:14:10 INFO  org.hibernate.orm.connections.pooling     - HHH10001003: Autocommit mode: false
+13-10-2017 09:14:10 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl     - HHH000115: Hibernate connection pool size: 20 (min=1)
+13-10-2017 09:14:10 INFO  org.hibernate.orm.connections.access     - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@1601e47] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+13-10-2017 09:14:10 INFO  org.hibernate.orm.connections.access     - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@1b0a7baf] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+13-10-2017 09:14:10 INFO  org.hibernate.tool.schema.internal.SchemaCreatorImpl     - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@26be6ca7'
+13-10-2017 09:14:10 INFO  org.apache.commons.logging.impl.Log4JLogger     - Added new Department to data base. docchange.my.Dep@77b7ffa4
+13-10-2017 09:17:32 INFO  org.hibernate.Version     - HHH000412: Hibernate Core {5.2.10.Final}
+13-10-2017 09:17:32 INFO  org.hibernate.cfg.Environment     - HHH000206: hibernate.properties not found
+13-10-2017 09:17:32 INFO  org.hibernate.annotations.common.Version     - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+13-10-2017 09:26:31 INFO  org.hibernate.Version     - HHH000412: Hibernate Core {5.2.10.Final}
+13-10-2017 09:26:31 INFO  org.hibernate.cfg.Environment     - HHH000206: hibernate.properties not found
+13-10-2017 09:26:32 INFO  org.hibernate.annotations.common.Version     - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+13-10-2017 09:27:53 INFO  org.hibernate.Version     - HHH000412: Hibernate Core {5.2.10.Final}
+13-10-2017 09:27:53 INFO  org.hibernate.cfg.Environment     - HHH000206: hibernate.properties not found
+13-10-2017 09:27:54 INFO  org.hibernate.annotations.common.Version     - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+13-10-2017 09:27:56 INFO  org.hibernate.dialect.Dialect     - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+13-10-2017 09:27:56 INFO  org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl     - HHH000422: Disabling contextual LOB creation as connection was null
+13-10-2017 09:27:56 INFO  org.hibernate.type.BasicTypeRegistry     - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@6e2aa843
+13-10-2017 09:27:58 WARN  org.hibernate.orm.connections.pooling     - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+13-10-2017 09:27:58 INFO  org.hibernate.orm.connections.pooling     - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/docChangeDb]
+13-10-2017 09:27:58 INFO  org.hibernate.orm.connections.pooling     - HHH10001001: Connection properties: {user=postgres, password=****, autocommit=false, pool_size=1}
+13-10-2017 09:27:58 INFO  org.hibernate.orm.connections.pooling     - HHH10001003: Autocommit mode: false
+13-10-2017 09:27:58 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl     - HHH000115: Hibernate connection pool size: 20 (min=1)
+13-10-2017 09:27:58 INFO  org.hibernate.orm.connections.access     - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@1601e47] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+13-10-2017 09:27:58 INFO  org.hibernate.orm.connections.access     - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@1b0a7baf] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+13-10-2017 09:27:58 INFO  org.hibernate.tool.schema.internal.SchemaCreatorImpl     - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@26be6ca7'
+13-10-2017 09:27:58 INFO  org.apache.commons.logging.impl.Log4JLogger     - Added new Department to data base. docchange.my.Dep@77b7ffa4
+13-10-2017 09:28:31 INFO  org.hibernate.Version     - HHH000412: Hibernate Core {5.2.10.Final}
+13-10-2017 09:28:31 INFO  org.hibernate.cfg.Environment     - HHH000206: hibernate.properties not found
+13-10-2017 09:28:32 INFO  org.hibernate.annotations.common.Version     - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+13-10-2017 09:28:34 INFO  org.hibernate.dialect.Dialect     - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+13-10-2017 09:28:34 INFO  org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl     - HHH000422: Disabling contextual LOB creation as connection was null
+13-10-2017 09:28:34 INFO  org.hibernate.type.BasicTypeRegistry     - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@6e2aa843
+13-10-2017 09:28:36 WARN  org.hibernate.orm.connections.pooling     - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+13-10-2017 09:28:36 INFO  org.hibernate.orm.connections.pooling     - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/docChangeDb]
+13-10-2017 09:28:36 INFO  org.hibernate.orm.connections.pooling     - HHH10001001: Connection properties: {user=postgres, password=****, autocommit=false, pool_size=1}
+13-10-2017 09:28:36 INFO  org.hibernate.orm.connections.pooling     - HHH10001003: Autocommit mode: false
+13-10-2017 09:28:36 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl     - HHH000115: Hibernate connection pool size: 20 (min=1)
+13-10-2017 09:28:37 INFO  org.hibernate.orm.connections.access     - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@1601e47] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+13-10-2017 09:28:37 INFO  org.hibernate.orm.connections.access     - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@1b0a7baf] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+13-10-2017 09:28:37 INFO  org.hibernate.tool.schema.internal.SchemaCreatorImpl     - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@26be6ca7'
+13-10-2017 09:28:37 INFO  org.apache.commons.logging.impl.Log4JLogger     - Added new Department to data base. docchange.my.Dep@77b7ffa4
+13-10-2017 09:28:48 INFO  org.hibernate.Version     - HHH000412: Hibernate Core {5.2.10.Final}
+13-10-2017 09:28:48 INFO  org.hibernate.cfg.Environment     - HHH000206: hibernate.properties not found
+13-10-2017 09:28:48 INFO  org.hibernate.annotations.common.Version     - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+13-10-2017 09:28:50 INFO  org.hibernate.dialect.Dialect     - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+13-10-2017 09:28:50 INFO  org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl     - HHH000422: Disabling contextual LOB creation as connection was null
+13-10-2017 09:28:50 INFO  org.hibernate.type.BasicTypeRegistry     - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@d2de489
+13-10-2017 09:28:52 WARN  org.hibernate.orm.connections.pooling     - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+13-10-2017 09:28:52 INFO  org.hibernate.orm.connections.pooling     - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/docChangeDb]
+13-10-2017 09:28:52 INFO  org.hibernate.orm.connections.pooling     - HHH10001001: Connection properties: {user=postgres, password=****, autocommit=false, pool_size=1}
+13-10-2017 09:28:52 INFO  org.hibernate.orm.connections.pooling     - HHH10001003: Autocommit mode: false
+13-10-2017 09:28:52 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl     - HHH000115: Hibernate connection pool size: 20 (min=1)
+13-10-2017 09:28:52 INFO  org.hibernate.orm.connections.access     - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@a77614d] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+13-10-2017 09:28:52 INFO  org.hibernate.orm.connections.access     - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@517bd097] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+13-10-2017 09:28:52 INFO  org.hibernate.tool.schema.internal.SchemaCreatorImpl     - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@5990e6c5'
+13-10-2017 09:28:52 INFO  org.apache.commons.logging.impl.Log4JLogger     - Added new Department to data base. docchange.my.Dep@48e64352
+13-10-2017 16:33:42 INFO  org.hibernate.Version     - HHH000412: Hibernate Core {5.2.10.Final}
+13-10-2017 16:33:42 INFO  org.hibernate.cfg.Environment     - HHH000206: hibernate.properties not found
+13-10-2017 16:33:42 INFO  org.hibernate.annotations.common.Version     - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+13-10-2017 16:33:44 INFO  org.hibernate.dialect.Dialect     - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+13-10-2017 16:33:44 INFO  org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl     - HHH000422: Disabling contextual LOB creation as connection was null
+13-10-2017 16:33:44 INFO  org.hibernate.type.BasicTypeRegistry     - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@d2de489
+13-10-2017 16:33:46 WARN  org.hibernate.orm.connections.pooling     - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+13-10-2017 16:33:46 INFO  org.hibernate.orm.connections.pooling     - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/docChangeDb]
+13-10-2017 16:33:46 INFO  org.hibernate.orm.connections.pooling     - HHH10001001: Connection properties: {user=postgres, password=****, autocommit=false, pool_size=1}
+13-10-2017 16:33:46 INFO  org.hibernate.orm.connections.pooling     - HHH10001003: Autocommit mode: false
+13-10-2017 16:33:46 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl     - HHH000115: Hibernate connection pool size: 20 (min=1)
+13-10-2017 16:33:46 INFO  org.hibernate.orm.connections.access     - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@a77614d] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+13-10-2017 16:33:46 INFO  org.hibernate.orm.connections.access     - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@517bd097] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+13-10-2017 16:33:47 INFO  org.hibernate.tool.schema.internal.SchemaCreatorImpl     - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@5990e6c5'
+13-10-2017 16:33:47 INFO  org.apache.commons.logging.impl.Log4JLogger     - Added new Department to data base. docchange.my.Dep@48e64352
+13-10-2017 16:35:46 INFO  org.hibernate.Version     - HHH000412: Hibernate Core {5.2.10.Final}
+13-10-2017 16:35:46 INFO  org.hibernate.cfg.Environment     - HHH000206: hibernate.properties not found
+13-10-2017 16:35:47 INFO  org.hibernate.annotations.common.Version     - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+13-10-2017 16:35:49 INFO  org.hibernate.dialect.Dialect     - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+13-10-2017 16:35:49 INFO  org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl     - HHH000422: Disabling contextual LOB creation as connection was null
+13-10-2017 16:35:49 INFO  org.hibernate.type.BasicTypeRegistry     - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@d2de489
+13-10-2017 16:35:50 WARN  org.hibernate.orm.connections.pooling     - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+13-10-2017 16:35:50 INFO  org.hibernate.orm.connections.pooling     - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/docChangeDb]
+13-10-2017 16:35:50 INFO  org.hibernate.orm.connections.pooling     - HHH10001001: Connection properties: {user=postgres, password=****, autocommit=false, pool_size=1}
+13-10-2017 16:35:50 INFO  org.hibernate.orm.connections.pooling     - HHH10001003: Autocommit mode: false
+13-10-2017 16:35:50 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl     - HHH000115: Hibernate connection pool size: 20 (min=1)
+13-10-2017 16:35:50 INFO  org.hibernate.orm.connections.access     - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@a77614d] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+13-10-2017 16:35:50 INFO  org.hibernate.orm.connections.access     - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@517bd097] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+13-10-2017 16:35:51 INFO  org.hibernate.tool.schema.internal.SchemaCreatorImpl     - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@5990e6c5'
+13-10-2017 16:35:51 INFO  org.apache.commons.logging.impl.Log4JLogger     - Added new Department to data base. docchange.my.Dep@48e64352
+13-10-2017 16:36:41 INFO  org.hibernate.Version     - HHH000412: Hibernate Core {5.2.10.Final}
+13-10-2017 16:36:41 INFO  org.hibernate.cfg.Environment     - HHH000206: hibernate.properties not found
+13-10-2017 16:36:42 INFO  org.hibernate.annotations.common.Version     - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+13-10-2017 16:36:44 INFO  org.hibernate.dialect.Dialect     - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+13-10-2017 16:36:44 INFO  org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl     - HHH000422: Disabling contextual LOB creation as connection was null
+13-10-2017 16:36:44 INFO  org.hibernate.type.BasicTypeRegistry     - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@6e2aa843
+13-10-2017 16:36:46 WARN  org.hibernate.orm.connections.pooling     - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+13-10-2017 16:36:46 INFO  org.hibernate.orm.connections.pooling     - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/docChangeDb]
+13-10-2017 16:36:46 INFO  org.hibernate.orm.connections.pooling     - HHH10001001: Connection properties: {user=postgres, password=****, autocommit=false, pool_size=1}
+13-10-2017 16:36:46 INFO  org.hibernate.orm.connections.pooling     - HHH10001003: Autocommit mode: false
+13-10-2017 16:36:46 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl     - HHH000115: Hibernate connection pool size: 20 (min=1)
+13-10-2017 16:36:46 INFO  org.hibernate.orm.connections.access     - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@1601e47] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+13-10-2017 16:36:46 INFO  org.hibernate.orm.connections.access     - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@1b0a7baf] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+13-10-2017 16:36:46 INFO  org.hibernate.tool.schema.internal.SchemaCreatorImpl     - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@26be6ca7'
+13-10-2017 16:36:46 INFO  org.apache.commons.logging.impl.Log4JLogger     - Added new Department to data base. docchange.my.Dep@77b7ffa4

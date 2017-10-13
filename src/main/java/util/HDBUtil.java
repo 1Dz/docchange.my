@@ -1,5 +1,8 @@
 package util;
 
+import java.util.List;
+
+import org.hibernate.Hibernate;
 import org.hibernate.HibernateException;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
@@ -11,7 +14,8 @@ import exception.DbChangeException;
 
 /**
  * Класс служит для выполнения запросов к базе данных через HibernateFramework
- * @author Maxim Kulin 
+ * 
+ * @author Maxim Kulin
  * @see util.HibernateUtil
  */
 public class HDBUtil implements DBUtil {
@@ -175,18 +179,34 @@ public class HDBUtil implements DBUtil {
 			session.close();
 		}
 	}
-	
+
+	public User getLoginsList(User user) {
+		session = factory.openSession();
+		try {
+			tx = session.beginTransaction();
+			user = (User) session.get(User.class, user.getId());
+			Hibernate.initialize(user.getLogins());
+			tx.commit();
+		} catch (HibernateException e) {
+			Logging.logError(e);
+			throw e;
+		} finally {
+			session.close();
+		}
+		return user;
+	}
+
 	private void swapParams(Object res, Object dest) {
-		if(res instanceof Dep && dest instanceof Dep) {
-			Dep dres = (Dep)res;
-			Dep ddest = (Dep)dest;
+		if (res instanceof Dep && dest instanceof Dep) {
+			Dep dres = (Dep) res;
+			Dep ddest = (Dep) dest;
 			ddest.setName(dres.getName());
 			ddest.setReminedRecs(dres.getReminedRecs());
 			ddest.setUserList(dres.getUserList());
 		}
-		if(res instanceof User && dest instanceof User) {
-			User dres = (User)res;
-			User ddest = (User)dest;
+		if (res instanceof User && dest instanceof User) {
+			User dres = (User) res;
+			User ddest = (User) dest;
 			ddest.setKey(dres.getKey());
 			ddest.setLogins(dres.getLogins());
 			ddest.setName(dres.getName());

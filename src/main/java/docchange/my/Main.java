@@ -1,11 +1,8 @@
 package docchange.my;
 
-import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
-
-import javax.swing.text.DateFormatter;
 
 import util.HDBUtil;
 import util.Util;
@@ -23,7 +20,6 @@ public class Main {
 		
 		List<String> dates = new ArrayList<>();
 		dates.add(Util.getDateStringNow());
-		System.out.println(Util.getDateStringNow());
 		List<User> list = new ArrayList<>();
 		
 		User usr = new User("First", new Date());
@@ -47,6 +43,9 @@ public class Main {
 		
 		dep.setUserList(list);
 		db.add(dep);
+		User u = (User)db.get(3, User.class);
+		u = db.getLoginsList(u);
+		System.out.println(u.getName() + " " + u.getProfession() + " " + u.getLogins());
 	}
 
 }
