@@ -15,4 +15,9 @@ public class Util {
 		date = LocalDateTime.now();
 		return String.format("%d.%d.%d - %d:%d", date.getDayOfMonth(), date.getMonthValue(), date.getYear(), date.getHour(), date.getMinute());
 	}
+	
+	public static String getDateString() {
+		date = LocalDateTime.now();
+		return String.format("%d.%d.%d", date.getDayOfMonth(), date.getMonthValue(), date.getYear());
+	}
 }

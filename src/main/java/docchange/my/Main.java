@@ -4,13 +4,11 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-import util.HDBUtil;
+import util.Connection;
 import util.Util;
 
 public class Main {
 	
-	private static HDBUtil db = new HDBUtil();
-
 	public static void main(String[] args) {
 		
 		Dep dep = new Dep();
@@ -42,10 +40,12 @@ public class Main {
 		list.add(usr);
 		
 		dep.setUserList(list);
-		db.add(dep);
-		User u = (User)db.get(3, User.class);
-		u = db.getLoginsList(u);
-		System.out.println(u.getName() + " " + u.getProfession() + " " + u.getLogins());
+		Connection.add(dep);
+		User u = (User)Connection.get(3, User.class);
+		u = Connection.getLoginsList(u);
+		Dep d = (Dep)Connection.get(1, Dep.class);
+		d = Connection.getUserList(d);
+		System.out.println(d.getUserList() + " " + u.getName() + " " + u.getProfession() + " " + u.getLogins());
 	}
 
 }

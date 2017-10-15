@@ -9,6 +9,7 @@
 		<property name="hibernate.connection.username">postgres</property>
 		<property name="hibernate.connection.password">System12</property>
 		<property name="hibernate.connection.autocommit">false</property>
+		<property name="hibernate.archive.autodetection">class,hbm</property>  
 		<property name="hibernate.connection.url">jdbc:postgresql://localhost:5432/docChangeDb</property>
 		<property name="show-sql">true</property>
 		<property name="connection_pool_size">1</property>

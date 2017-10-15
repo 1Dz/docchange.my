@@ -7,27 +7,27 @@
 		<id name="id" column="id" unsaved-value="null">
 			<generator class="increment" />
 		</id>
-		<list name="rCreated" cascade="all">
+		<list name="rCreated" cascade="all" lazy="true">
 			<key column="user_id" />
 			<list-index column="idu" />
 			<one-to-many class="Record" />
 		</list>
-		<list name="rChanged" cascade="all">
+		<list name="rChanged" cascade="all" lazy="true">
 			<key column="user_id" />
 			<list-index column="idu" />
 			<one-to-many class="Record" />
 		</list>
-		<list name="rListened" cascade="all">
+		<list name="rListened" cascade="all" lazy="true">
 			<key column="user_id" />
 			<list-index column="idu" />
 			<one-to-many class="Record" />
 		</list>
-		<list name="rDeleted" cascade="all">
+		<list name="rDeleted" cascade="all" lazy="true">
 			<key column="user_id" />
 			<list-index column="idu" />
 			<one-to-many class="Record" />
 		</list>
-		<list name="logins" table="logins" cascade="all" >
+		<list name="logins" table="logins" cascade="all" lazy="true">
 			<key column="user_id"/>
 			<index column="idu"/>
 			<element column="logins" type="string" />

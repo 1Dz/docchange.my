@@ -5,27 +5,23 @@ import java.util.Date;
 import java.util.List;
 
 public class Record {
-	
+
 	private Integer id;
 	private String name;
 	private String theme;
 	private String message;
-	
+
 	private User author;
 	private Date creationDate;
-	
-	private List<Date> editionDates;
-	private List<User> usersEdited;
-	private List<User> usersList;
-	private List<File> fileList;
+
+	private List<String> editionDates;
+	private List<String> fileList;
 	private List<Dep> depAdressList;
 	private List<User> usrAdressList;
-	private List<User> remainedUsers;
-	private List<User> remainedDeps;
-	
+
 	private boolean checked;
 	private boolean archived;
-	
+
 	public Record() {
 	}
 
@@ -36,23 +32,16 @@ public class Record {
 		this.creationDate = creationDate;
 	}
 
-	public Record(String name, String theme, String message, User author, Date creationDate, List<Date> editionDates,
-			List<User> usersEdited, List<User> usersList, List<File> fileList, List<Dep> depAdressList,
-			List<User> usrAdressList, List<User> remainedUsers, List<User> remainedDeps, boolean checked,
-			boolean archived) {
+	public Record(String name, String theme, String message, User author, Date creationDate, List<String> editionDates,
+			List<File> fileList, List<Dep> depAdressList, List<User> usrAdressList, boolean checked, boolean archived) {
 		this.name = name;
 		this.theme = theme;
 		this.message = message;
 		this.author = author;
 		this.creationDate = creationDate;
 		this.editionDates = editionDates;
-		this.usersEdited = usersEdited;
-		this.usersList = usersList;
-		this.fileList = fileList;
 		this.depAdressList = depAdressList;
 		this.usrAdressList = usrAdressList;
-		this.remainedUsers = remainedUsers;
-		this.remainedDeps = remainedDeps;
 		this.checked = checked;
 		this.archived = archived;
 	}
@@ -97,35 +86,19 @@ public class Record {
 		this.creationDate = creationDate;
 	}
 
-	public List<Date> getEditionDates() {
+	public List<String> getEditionDates() {
 		return editionDates;
 	}
 
-	public void setEditionDates(List<Date> editionDates) {
+	public void setEditionDates(List<String> editionDates) {
 		this.editionDates = editionDates;
 	}
 
-	public List<User> getUsersEdited() {
-		return usersEdited;
-	}
-
-	public void setUsersEdited(List<User> usersEdited) {
-		this.usersEdited = usersEdited;
-	}
-
-	public List<User> getUsersList() {
-		return usersList;
-	}
-
-	public void setUsersList(List<User> usersList) {
-		this.usersList = usersList;
-	}
-
-	public List<File> getFileList() {
+	public List<String> getFileList() {
 		return fileList;
 	}
 
-	public void setFileList(List<File> fileList) {
+	public void setFileList(List<String> fileList) {
 		this.fileList = fileList;
 	}
 
@@ -169,20 +142,4 @@ public class Record {
 		this.id = id;
 	}
 
-	public List<User> getRemainedUsers() {
-		return remainedUsers;
-	}
-
-	public void setRemainedUsers(List<User> remainedUsers) {
-		this.remainedUsers = remainedUsers;
-	}
-
-	public List<User> getRemainedDeps() {
-		return remainedDeps;
-	}
-
-	public void setRemainedDeps(List<User> remainedDeps) {
-		this.remainedDeps = remainedDeps;
-	}
-	
 }

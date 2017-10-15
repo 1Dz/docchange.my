@@ -3,10 +3,6 @@ package docchange.my;
 import java.util.Date;
 import java.util.List;
 
-import javax.persistence.CascadeType;
-import javax.persistence.FetchType;
-import javax.persistence.OneToMany;
-
 public class User {
 	
 	private String name;
