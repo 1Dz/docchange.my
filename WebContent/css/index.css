@@ -1,0 +1,17 @@
+@CHARSET "UTF-8";
+
+body{
+	background-color: #123123; 
+	color: #ffffff
+}
+.form{
+	padding-top: 100px;
+}
+.footer{
+	margin-right: 10%;
+	margin-top: 15%
+}
+input{
+	color: black;
+	margin-top: 10px;
+}
